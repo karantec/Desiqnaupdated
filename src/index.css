@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (max-width: 525px) {
+    .top-enroll-btn{
+        font-size: 12px;
+        width: 90px;
+    }
+    
+    .student-cracks{
+        width: 70%;
+        font-size: 15px;
+    }
+
+    .banner-title{
+        font-size: 35px;
+        margin-top: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .edu-revo{
+        font-size: 1.15rem;
+    }
+
+    .top-perfor{
+        font-size: 1.6rem;
+    }
+
+    .pic_gap{
+        gap: 2.9rem;
+    }
+}
+
+
