@@ -3,6 +3,7 @@ const Page = lazy(() => import("../Features/page"));
 import { data } from "./data/data";
 import Feature1 from "../Recent copy/components/Feature";
 import RecPage1 from "../Recent copy/page";
+import { Link } from "react-router-dom";
 
 
 const Lower = lazy(() => import("../Lower/Page"));
@@ -31,7 +32,7 @@ function HeroSection() {
                 <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
                   <span className="text-red-500">558 </span>Students from Tier-3
                   colleges have Cracked{" "}
-                  <span className="text-red-500">10+ LPA</span> offers in the
+                  <span className="text-red-500">20+ LPA</span> offers in the
                   last <span className="text-red-500">10 months.</span>
                 </li>
                 <li className="mb-4 md:items-start leading-normal text-md text-gray-900 font-sans font-bold">
@@ -62,8 +63,11 @@ function HeroSection() {
                   <button role="button" className="text-red hover:before:bg-red border-2 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full">
                     <span className="relative z-10  text-2xl ">
                       {data.button}
+                     
                     </span>
+                    
                   </button>
+                  
                 </a>
                 <a
                   aria-label="course"
@@ -78,7 +82,11 @@ function HeroSection() {
                   </button>
                 </a>
               </div>
+              <br/>
+              <span className="mb-8  mt-4 md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">(There can be delay in response for your enrolling query because our intake capacity is very low as we offer personal 1-1 mentoring + Daily Live Training along with many more features and competition to join DEC COHORT IS VERY TIGHT - DUE TO OUR DAILY <span className="text-blue-500"><Link className="" to="https://www.linkedin.com/posts/kumark1_kumark-coding-activity-7268567469525508097-K2XM?utm_source=share&utm_medium=member_desktop">20+LPA </Link></span>SELECTIONS)</span>
+                  
             </div>
+            
             <div className="md:w-1/2 mt-[-2rem] w-full lg:max-w-lg">
               <img
                 className="object-cover object-center rounded-md shadow-lg transition-transform duration-500 transform hover:scale-105"
