@@ -19,15 +19,7 @@ user0:{
         img:'Ach.jpg'
         
     },
-    user2:{
-        id:2,
-        p:" Kumar K Student Cracks offer from Google!",
-        h1:"Mentoring Student cracks  offer from Google after 8 months of advanced DSA(OA + CP) training",
-        company: "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
-        student:"Shivam Kumar",
-        img:'shivamg.png'
-        
-    },
+   
     
        
     user3:{

@@ -83,7 +83,7 @@ function HeroSection() {
                 </a>
               </div>
               <br/>
-              <span className="mb-8  mt-4 md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">(There can be delay in response for your enrolling query because our intake capacity is very low as we offer personal 1-1 mentoring + Daily Live Training along with many more features and competition to join DEC COHORT IS VERY TIGHT - DUE TO OUR DAILY <span className="text-blue-500"><Link className="" to="https://www.linkedin.com/posts/kumark1_kumark-coding-activity-7268567469525508097-K2XM?utm_source=share&utm_medium=member_desktop">20+LPA </Link></span>SELECTIONS)</span>
+              <span className="mb-8  mt-4 md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">(There can be delay in response for your enrolling query because our intake capacity is very low as we offer personal 1-1 mentoring + Daily Live Training along with many more features and competition to join JAN COHORT IS VERY TIGHT - DUE TO OUR DAILY <span className="text-blue-500"><Link className="" to="https://www.linkedin.com/posts/kumark1_kumark-coding-activity-7268567469525508097-K2XM?utm_source=share&utm_medium=member_desktop">20+LPA </Link></span>SELECTIONS)</span>
                   
             </div>
             
