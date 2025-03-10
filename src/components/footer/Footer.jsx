@@ -24,7 +24,7 @@ export function Footer() {
             <a href ="https://www.linkedin.com/company/desiqna/"><Linkedin size={24} color="#0077b5" /></a>
             <a href ="https://www.instagram.com/desiqna_official/"><Instagram size={24} color="#e4405f" /></a>
             <a href="https://youtu.be/0S7WMSpR36o?si=JcdnYirmqJBJbigg"><Youtube size={24} color="#ff0000" /></a>
-            <a href="https://www.desiqna.in/refund-policy"><p>Refund Policy</p></a>
+            <a href="https://www.desiqna.in/refund-policy"><p>Refund Policy </p></a>
             <a href="https://www.desiqna.in/refund-policy"><p>Copy Right</p></a>
           </div>
           <div>
