@@ -25,7 +25,7 @@ export function Footer() {
             <a href ="https://www.instagram.com/desiqna_official/"><Instagram size={24} color="#e4405f" /></a>
             <a href="https://youtu.be/0S7WMSpR36o?si=JcdnYirmqJBJbigg"><Youtube size={24} color="#ff0000" /></a>
             <a href="https://www.desiqna.in/refund-policy"><p>Refund Policy </p></a>
-            <a href="https://www.desiqna.in/refund-policy"><p>Copy Right</p></a>
+            <a href="https://www.desiqna.in/refund-policy"><p>CopyRight  Policy</p></a>
           </div>
           <div>
             <p className="text-sm font-medium text-gray-500">© 2025 DesiQna. All rights reserved.</p>
