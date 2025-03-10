@@ -52,17 +52,33 @@ function HeroSection() {
                 </li>
               </ol>
 
-              <div className="flex justify-center md:justify-start space-x-4">
+              <div className="flex  flex-wrap  md:justify-start space-x-6 space-y-4">
                 {/* Move buttons here */}
+               
                 <a
                 aria-label="contact"
-                  href="https://wa.me/918879355057"
+                
+                  href="https://docs.google.com/forms/d/1OIvUbH5RLfmjMNv8Dabz5y9VSbuK9Zon425W8ZCzY6Q/edit"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button role="button" className="text-red hover:before:bg-red border-2 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full">
                     <span className="relative z-10  text-2xl ">
                       {data.button}
+                     
+                    </span>
+                    
+                  </button>
+                </a>
+                <a
+                aria-label="contact"
+                  href="https://wa.me/918879355057"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button role="button" className="text-red hover:before:bg-red border-2 pl-1 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full">
+                    <span className="relative z-10  text-xl ">
+                      {data.button1}
                      
                     </span>
                     
@@ -83,7 +99,7 @@ function HeroSection() {
                 </a>
               </div>
               <br/>
-              <span className="mb-8  mt-4 md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">(There can be delay in response for your enrolling query because our intake capacity is very low as we offer personal 1-1 mentoring + Daily Live Training along with many more features and competition to join JAN COHORT IS VERY TIGHT - DUE TO OUR DAILY <span className="text-blue-500"><Link className="" to="https://www.linkedin.com/posts/kumark1_kumark-coding-activity-7268567469525508097-K2XM?utm_source=share&utm_medium=member_desktop">20+LPA </Link></span>SELECTIONS)</span>
+            
                   
             </div>
             

@@ -12,6 +12,7 @@ export const data ={
     ul6:`Kumar K sir is going to resolve your personal issues in hours of personalized mentoring ; this is the reason why so students by now have gotten high paying offers.`,
     ul4:`(Separate Batch for college students/freshers/working professionals/Non-IT graduates) :- We have high number of selections in each of the categories.`,
     button:'Enroll Now',
+    button1:'Ask your Query',
     butt2:'Brochure',
     img:'section2.jpg'
 }
