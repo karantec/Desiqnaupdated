@@ -2,7 +2,7 @@ export const componentData = {
   component1: {
     heading1: "Basics of programming language. (C++/Java/Py)",
     para1:
-      "Are you starting with your coding journey? Not to worry, We will cover all the Basics of Java required for DSA.",
+      "Are you starting with your coding journey? Not to worry, We will cover all the Basics of Java/C++/Python required for DSA.",
     heading2:
       "Core Building of Fundamental Problem Solving and Logical skills. ",
     para2: "This is the step only for beginner's batch.",
