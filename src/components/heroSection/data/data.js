@@ -15,4 +15,5 @@ export const data ={
     button1:'Ask your Query',
     butt2:'Brochure',
     img:'section2.jpg'
+   
 }

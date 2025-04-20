@@ -1,12 +1,11 @@
 export const data={
-    
-user0:{
+    user0:{
         id:0,
-        p:" 𝐅𝐫𝐨𝐦 Waiter 𝐭𝐨  40LPA 𝐒𝐃𝐄-2   𝐚𝐭 𝐄𝐮𝐫𝐨𝐩𝐞 𝐁𝐚𝐬𝐞𝐝 𝐌𝐍𝐂  ",
-        h1:"Mentoring Student cracks  𝐒𝐃𝐄-2  offer from 𝐄𝐮𝐫𝐨𝐩𝐞 𝐁𝐚𝐬𝐞𝐝 𝐌𝐍𝐂 BCG-X  after 8 months of advanced DSA(OA + CP + System Design) training",
-        company: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQO4KkdeZ3CekseJTegnnVX67VVXbhx0gzg&s",
-        student:" Anind Jha.",
-        img:'anad.png'
+        p:" Kumar K Student cracks  40LPA SDE-offer from Paypal - Made Successful switch from Service-based to Product-based company",
+        h1:" Kumar K Mentoring Student   cracked Off-Campus Full-Time SDE Offer from PayPal  after 8 months of advanced DSA(OA + CP+System Design) training and successfully make a switch from  service-based company to product-based company",
+        company: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01IiJEzLYwzuQethJraGGG-3-vbKQ8AbQTQ&s",
+        student:"Kishore M",
+        img:'kishorMpaypl.jpg'
         
     },
         
@@ -25,20 +24,24 @@ user1:{
         id:2,
         p:" Kumar K Student cracks OffCampus  SDE-offer from Myntra!",
         h1:"Mentoring Student cracks  OffCampus  SDE-offer from Myntra after 8 months of advanced DSA(OA + CP +System Design) training and successfully make a switch from  service-based company to product-based company",
-        company: "https://yt3.googleusercontent.com/rhKNyzHI-SNrhQ5MwDujVRKxK0oLe9GP794xzGb-YsfyWSybA8NkV2SoMTVF3nRLkz9vIqhD=s900-c-k-c0x00ffffff-no-rj",
+        company: "https://imgs.search.brave.com/NLfIb3F1aXNRPYGVGszmFSM2g7vP14TRLcPBV1eau3s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvUXFC/TTYzWk5tRWlSZWxq/em1TYWtuSld0SjM2/WG9rbG15TGprWW1r/bVJpWS5qcGc_d2lk/dGg9NjQwJmNyb3A9/c21hcnQmYXV0bz13/ZWJwJnM9N2VjMzcy/YmU5NjIxZmQ0M2U4/ZmRmYTcyZDFhYjQ5/Mjg0NzljYmYxMg",
         student:"Kumar Harsh",
         img:'harsh.jpg'
         
     },
+
+
     user3:{
         id:3,
-        p:" Kumar K Student cracks  OffCampus SDE-offer from Paypal",
-        h1:"Mentoring Student   cracked Off-Campus Full-Time SDE Offer from PayPal  after 8 months of advanced DSA(OA + CP+System Design) training and successfully make a switch from  service-based company to product-based company",
-        company: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01IiJEzLYwzuQethJraGGG-3-vbKQ8AbQTQ&s",
-        student:"Kishore M",
-        img:'kishor.jpg'
+        p:" 𝐅𝐫𝐨𝐦 Waiter 𝐭𝐨  40LPA 𝐒𝐃𝐄-2   𝐚𝐭 𝐄𝐮𝐫𝐨𝐩𝐞 𝐁𝐚𝐬𝐞𝐝 𝐌𝐍𝐂  ",
+        h1:"Mentoring Student cracks  𝐒𝐃𝐄-2  offer from 𝐄𝐮𝐫𝐨𝐩𝐞 𝐁𝐚𝐬𝐞𝐝 𝐌𝐍𝐂 BCG-X  after 8 months of advanced DSA(OA + CP + System Design) training",
+        company: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQO4KkdeZ3CekseJTegnnVX67VVXbhx0gzg&s",
+        student:" Anind Jha.",
+        img:'anad.png'
         
     },
+
+   
     
        
     user4:{

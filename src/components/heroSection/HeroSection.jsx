@@ -4,6 +4,7 @@ import { data } from "./data/data";
 import Feature1 from "../Recent copy/components/Feature";
 import RecPage1 from "../Recent copy/page";
 import { Link } from "react-router-dom";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 
 const Lower = lazy(() => import("../Lower/Page"));
@@ -26,29 +27,55 @@ function HeroSection() {
                 {data.subh1} {data.subh2}
               </h1>
               <ol className="mt-3 ">
-                <li className="mb-4 md:items-start leading-normal text-md text-gray-900 font-sans font-bold">
-                  {data.ul1}
-                </li>
+              <li className="mb-4 leading-normal text-md text-gray-900 font-sans font-bold">
+  <div className="flex items-start">
+    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+    <span>{data.ul1}</span>
+  </div>
+</li>
+
                 <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
                   <span className="text-red-500">558 </span>Students from Tier-3
                   colleges have Cracked{" "}
                   <span className="text-red-500">20+ LPA</span> offers in the
                   last <span className="text-red-500">10 months.</span>
+                  </div>
+
                 </li>
                 <li className="mb-4 md:items-start leading-normal text-md text-gray-900 font-sans font-bold">
                   Separate Live training batch for Beginners vs Intermediates
                 </li>
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
-                  {data.ul3}
+                <div className="flex items-start">
+                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                <span> {data.ul3}</span>
+                </div>
                 </li>
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
-                  {data.ul5}
+                <div className="flex items-start">
+                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                <span>  {data.ul5}</span>
+                </div>
                 </li>
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
-                  {data.ul6}
+                <div className="flex items-start">
+                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" /> 
+                <span> {data.ul6}</span>
+                </div>
                 </li>
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                <div className="flex items-start">
+                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" /> 
                   {data.ul4}
+                  </div>
+                </li>
+                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                <div className="flex items-start">
+                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" /> 
+                Select 8-month or 4-month   cohort — both available 
+                  </div>
                 </li>
               </ol>
 

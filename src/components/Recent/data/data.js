@@ -1,7 +1,19 @@
 export const data={
+   
     
+
+        
 user0:{
-        id:0,
+    id:0,
+    p:" Tier-3 College to  50LPA   SDE Offer  at Amazon",
+    h1:" Kumar K Mentoring Student cracks off-campus  SDE-offer from Amazon after 8 months of advanced DSA(OA + CP) training",
+    company: "https://imgs.search.brave.com/L_7FnsX4liPDGfodO__2EQzd0nyT8gI88rPQr6Y741Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvYW1hem9uL2Ft/YXpvbl9QTkcyMS5w/bmc",
+    student:"Sukriti Sinha",
+    img:'Suk.jpg'
+    
+},
+user1:{
+        id:1,
         p:" Tier-3 College to  2 Crore CTC International  SDE Offer  at USA ",
         h1:"Mentoring Student cracks off-campus offer from Nutanix USA after 8 months of advanced DSA(OA + CP) training",
         company: "https://www.logo.wine/a/logo/Nutanix/Nutanix-Logo.wine.svg",
@@ -10,8 +22,8 @@ user0:{
         
     },
 
-    user1:{
-        id:1,
+    user2:{
+        id:2,
         p:" Kumar K Student Cracks offer from Google!",
         h1:"Mentoring Student cracks  offer from Google after 8 months of advanced DSA(OA + CP) training",
         company: "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
