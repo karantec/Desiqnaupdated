@@ -6,7 +6,6 @@ import RecPage1 from "../Recent copy/page";
 import { Link } from "react-router-dom";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
-
 const Lower = lazy(() => import("../Lower/Page"));
 const CPPage = lazy(() => import("../Features copy/page"));
 const RecPage = lazy(() => import("../Recent/page"));
@@ -27,90 +26,92 @@ function HeroSection() {
                 {data.subh1} {data.subh2}
               </h1>
               <ol className="mt-3 ">
-              <li className="mb-4 leading-normal text-md text-gray-900 font-sans font-bold">
-  <div className="flex items-start">
-    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-    <span>{data.ul1}</span>
-  </div>
-</li>
+                <li className="mb-4 leading-normal text-md text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    <span>{data.ul1}</span>
+                  </div>
+                </li>
 
                 <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                  <span className="text-red-500">558 </span>Students from Tier-3
-                  colleges have Cracked{" "}
-                  <span className="text-red-500">20+ LPA</span> offers in the
-                  last <span className="text-red-500">10 months.</span>
+                    <span className="text-red-500 text-2xl"> 558 {"  "} Students from
+                    Tier-3 colleges have Cracked{" "}
+                   20+ LPA { "  " }  offers in the
+                    last 10 months.</span>
                   </div>
-
                 </li>
                 <li className="mb-4 md:items-start leading-normal text-md text-gray-900 font-sans font-bold">
-                  Separate Live training batch for Beginners vs Intermediates
-                </li>
-                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                 <div className="flex items-start">
                 <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                <span> {data.ul3}</span>
-                </div>
-                </li>
-                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
-                <div className="flex items-start">
-                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                <span>  {data.ul5}</span>
-                </div>
-                </li>
-                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
-                <div className="flex items-start">
-                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" /> 
-                <span> {data.ul6}</span>
-                </div>
-                </li>
-                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
-                <div className="flex items-start">
-                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" /> 
-                  {data.ul4}
+                <span>Separate Live training batch for Beginners vs Intermediates </span>
                   </div>
                 </li>
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
-                <div className="flex items-start">
-                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" /> 
-                Select 8-month or 4-month   cohort — both available 
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    <span> {data.ul3}</span>
+                  </div>
+                </li>
+                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    <span> {data.ul5}</span>
+                  </div>
+                </li>
+                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    <span> {data.ul6}</span>
+                  </div>
+                </li>
+                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    {data.ul4}
+                  </div>
+                </li>
+                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    Select 8-month or 4-month cohort — both available
                   </div>
                 </li>
               </ol>
 
               <div className="flex  flex-wrap  md:justify-start space-x-6 space-y-4">
                 {/* Move buttons here */}
-               
+
                 <a
-                aria-label="contact"
-                
+                  aria-label="contact"
                   href="https://docs.google.com/forms/d/1t_Po_G3jdI6D1xfOGyPvSQeyE7fdmlW7MD-WLCr_n2Y/edit"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button role="button" className="text-red hover:before:bg-red border-2 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full">
+                  <button
+                    role="button"
+                    className="text-red hover:before:bg-red border-2 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
+                  >
                     <span className="relative z-10  text-2xl ">
                       {data.button}
-                     
                     </span>
-                    
                   </button>
                 </a>
                 <a
-                aria-label="contact"
+                  aria-label="contact"
                   href="https://wa.me/918879355057"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button role="button" className="text-red hover:before:bg-red border-2 pl-1 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full">
+                  <button
+                    role="button"
+                    className="text-red hover:before:bg-red border-2 pl-1 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
+                  >
                     <span className="relative z-10  text-xl ">
                       {data.button1}
-                     
                     </span>
-                    
                   </button>
-                  
                 </a>
                 <a
                   aria-label="course"
@@ -118,18 +119,19 @@ function HeroSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button role="button" className="text-red hover:before:bg-red border-2 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full">
+                  <button
+                    role="button"
+                    className="text-red hover:before:bg-red border-2 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
+                  >
                     <span className="relative z-10  text-2xl ">
                       {data.butt2}
                     </span>
                   </button>
                 </a>
               </div>
-              <br/>
-            
-                  
+              <br />
             </div>
-            
+
             <div className="md:w-1/2 mt-[-2rem] w-full lg:max-w-lg">
               <img
                 className="object-cover object-center rounded-md shadow-lg transition-transform duration-500 transform hover:scale-105"
@@ -139,15 +141,14 @@ function HeroSection() {
             </div>
           </div>
         </section>
-
       </section>
-     
+
       <Suspense fallback={<></>}>
-     <RecPage1/>
+        <RecPage1 />
         <RecPage />
-        
+
         <Page />
-      
+
         <CPPage />
         <Lower />
       </Suspense>
