@@ -36,16 +36,20 @@ function HeroSection() {
                 <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    <span className="text-red-500 text-2xl"> 558 {"  "} Students from
-                    Tier-3 colleges have Cracked{" "}
-                   20+ LPA { "  " }  offers in the
-                    last 10 months.</span>
+                    <span className="text-red-500 text-2xl">
+                      {" "}
+                      558 {"  "} Students from Tier-3 colleges have Cracked 20+
+                      LPA {"  "} offers in the last 10 months.
+                    </span>
                   </div>
                 </li>
                 <li className="mb-4 md:items-start leading-normal text-md text-gray-900 font-sans font-bold">
-                <div className="flex items-start">
-                <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                <span>Separate Live training batch for Beginners vs Intermediates </span>
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    <span>
+                      Separate Live training batch for Beginners vs
+                      Intermediates{" "}
+                    </span>
                   </div>
                 </li>
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
@@ -75,7 +79,12 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Select 8-month or 4-month cohort — both available
+                    Summer discount offer on May Batch {"    "}
+                    <span className="text-2xl ml-4">
+                      <del>₹10000</del>
+                    </span>
+                    {"    "} {"    "}
+                    <span className="text-red-500 text-2xl ml-2">₹3280</span>
                   </div>
                 </li>
               </ol>
@@ -100,7 +109,7 @@ function HeroSection() {
                 </a>
                 <a
                   aria-label="contact"
-                  href="https://wa.me/918879355057"
+                  href="https://api.whatsapp.com/send/?phone=918433719235&text&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
