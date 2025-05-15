@@ -1,11 +1,12 @@
-import { FaAngleRight } from 'react-icons/fa';
+import { FaAngleRight, FaArrowAltCircleRight } from "react-icons/fa";
 
 function Section() {
   return (
-
     <div className="flex mt-15 flex-col items-center justify-center  ">
       <section className="text-gray-600 body-font bg-gradient-to-r to-red-50 from-yellow-100 max-w-screen-lg mx-auto px-5 sm:px-10 py-10 shadow-[4px_4px_4px_0px_#a0aec0]">
-        <h1 className='text-center font-bold text-gray-700 font-sans text-4xl mb-8 uppercase top-perfor'>Meet your Mentor</h1>
+        <h1 className="text-center font-bold text-gray-700 font-sans text-4xl mb-8 uppercase top-perfor">
+          Meet your Mentor
+        </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="md:max-w-lg md:w-full mx-auto">
             <img
@@ -25,33 +26,75 @@ function Section() {
               <span className="text-black"> SDE @ Amazon</span>
             </p>
             <p className="mt-8 mb-8">
-            <ol className="list-outside">
-            <li className="text-black font-bold flex items-center">
-                <FaAngleRight className="mr-2" />
-                International Rank 368 in Google KickStart.
-            </li>
-            <li className="text-black font-bold flex items-center">
-                <FaAngleRight className="mr-2" />
-                All Indian Rank 12 in Google CodeJam.
-            </li>
-            <li className="text-black font-bold flex items-center">
-                <FaAngleRight className="mr-2" />
-                All India Rank 15 out of 200000 in Hackerearth; From Tier-4 college hence knows the struggle.
-            </li>
-            <li className="text-black font-bold flex items-center">
-                <FaAngleRight className="mr-2" />
-                All India Rank 26 in LeetCode Weekly Contest.
-            </li>
-            <li className="text-black font-bold flex items-center">
-                <FaAngleRight className="mr-2" />
-                Have 1 - 1 Mentored 500+ Students in 3 years and 558 students have cracked OFF Campus SDE Offer from TopTech Companies.
-            </li>
-        </ol>
+              <ol className="list-outside">
+                <li className="text-black font-bold flex items-center">
+                  <FaAngleRight className="mr-2" />
+                  2100+ rated on
+                  <span className="ml-2 text-blue-800">
+                    {" "}
+                    {"    "}
+                    <a href="https://leetcode.com/u/godiswithme/">
+                      Leetcode (Top 1% in world).
+                    </a>{" "}
+                  </span>
+                </li>
+
+                <li className=" flex items-center text-md text-gray-900 font-sans font-bold leading-normal">
+                  <FaAngleRight className="mr-2 flex-shrink-0" />
+                  <div className="flex flex-wrap items-center">
+                    <a
+                      href="https://www.youtube.com/watch?v=j1SOLU_UVkI&ab_channel=KumarK%5BAmazon%5D"
+                      className="mr-2 text-blue-800"
+                    >
+                      Youtube
+                    </a>
+                    <span className="text-red-500 mr-2">&&</span>
+                    <a
+                      href="https://www.linkedin.com/in/kumark1/"
+                      className="text-blue-800"
+                    >
+                      Linkedin (1 Lakh + followers)
+                    </a>
+                  </div>
+                </li>
+                <li className="text-black font-bold flex items-center">
+                  <FaAngleRight className="mr-2" />
+                  International Rank 368 in Google KickStart.
+                </li>
+                <li className="text-black font-bold flex items-center">
+                  <FaAngleRight className="mr-2" />
+                  All Indian Rank 12 in Google CodeJam.
+                </li>
+                <li className="text-black font-bold flex items-center">
+                  <FaAngleRight className="mr-2" />
+                  All India Rank 15 out of 200000 in Hackerearth; From Tier-4
+                  college hence knows the struggle.
+                </li>
+                <li className="text-black font-bold flex items-center">
+                  <FaAngleRight className="mr-2" />
+                  All India Rank 26 in LeetCode Weekly Contest.
+                </li>
+                <li className="text-black font-bold flex items-center">
+                  <FaAngleRight className="mr-2" />
+                  Have 1 - 1 Mentored 500+ Students in 3 years and 558 students
+                  have cracked OFF Campus SDE Offer from TopTech Companies.
+                </li>
+              </ol>
             </p>
             <div className="flex flex-row items-center justify-center ml-4  ">
-              <button role='button' className="mt-3 flex flex-row  items-center justify-center gap-2  rounded-md px-2 py-2 w-full md:w-auto text-black font-bold">
-                <span aria-label="class" className='ml-3 flex flex-row item-center'>
-                  <a aria-label='whatsapp' href="https://wa.me/918879355057" target="_blank">
+              <button
+                role="button"
+                className="mt-3 flex flex-row  items-center justify-center gap-2  rounded-md px-2 py-2 w-full md:w-auto text-black font-bold"
+              >
+                <span
+                  aria-label="class"
+                  className="ml-3 flex flex-row item-center"
+                >
+                  <a
+                    aria-label="whatsapp"
+                    href="https://wa.me/918879355057"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -86,9 +129,16 @@ function Section() {
                   </a>
                 </span>
               </button>
-              <button role='button' className="mt-3 flex flex-row  items-center justify-center gap-4  rounded-md px-4 py-2 w-full md:w-auto text-black font-bold">
+              <button
+                role="button"
+                className="mt-3 flex flex-row  items-center justify-center gap-4  rounded-md px-4 py-2 w-full md:w-auto text-black font-bold"
+              >
                 <span>
-                  <a aria-label='youtube' href="https://youtube.com/@kumark6326" target="_blank">
+                  <a
+                    aria-label="youtube"
+                    href="https://youtube.com/@kumark6326"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -107,9 +157,16 @@ function Section() {
                 </span>
               </button>
 
-              <button role='button' className="mt-3 flex flex-row  items-center justify-center gap-4  rounded-md px-4 py-2 w-full md:w-auto text-black font-bold">
+              <button
+                role="button"
+                className="mt-3 flex flex-row  items-center justify-center gap-4  rounded-md px-4 py-2 w-full md:w-auto text-black font-bold"
+              >
                 <span>
-                  <a aria-label='linkdin' href="https://www.linkedin.com/in/kumark1/" target="_blank">
+                  <a
+                    aria-label="linkdin"
+                    href="https://www.linkedin.com/in/kumark1/"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -138,9 +195,16 @@ function Section() {
                   </a>
                 </span>
               </button>
-              <button role='button' className="mt-3 flex flex-row  items-center justify-center gap-4  rounded-md px-4 py-2 w-full md:w-auto text-black font-bold">
+              <button
+                role="button"
+                className="mt-3 flex flex-row  items-center justify-center gap-4  rounded-md px-4 py-2 w-full md:w-auto text-black font-bold"
+              >
                 <span>
-                  <a aria-label='instagram' href="https://www.instagram.com/kumark_desiqna/" target="_blank">
+                  <a
+                    aria-label="instagram"
+                    href="https://www.instagram.com/kumark_desiqna/"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"

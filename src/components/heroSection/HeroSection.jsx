@@ -32,7 +32,38 @@ function HeroSection() {
                     <span>{data.ul1}</span>
                   </div>
                 </li>
-
+                <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    <span className="text-red-500 text-2xl">
+                      {" "}
+                      DSA Mentor: 2100+ rated on {"    "}
+                      <a
+                        href="https://leetcode.com/u/godiswithme/"
+                        className="text-blue-800"
+                      >
+                        Leetcode (Top 1% in world).
+                      </a>{" "}
+                    </span>
+                  </div>
+                </li>
+                <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    <span className="text-blue-800 text-2xl">
+                      <a href="https://www.youtube.com/watch?v=j1SOLU_UVkI&ab_channel=KumarK%5BAmazon%5D">
+                        Youtube
+                      </a>{" "}
+                      <span className="text-red-500">&& </span>
+                      <a
+                        href="https://www.linkedin.com/in/kumark1/"
+                        className="ml-2 text-blue-800"
+                      >
+                        Linkedin (1 Lakh + followers)
+                      </a>
+                    </span>
+                  </div>
+                </li>
                 <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
