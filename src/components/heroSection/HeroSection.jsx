@@ -110,7 +110,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Summer discount offer on May Batch {"    "}
+                    Special summer discount offer on June Batch {"    "}
                     <span className="text-2xl ml-4">
                       <del>₹10000</del>
                     </span>
