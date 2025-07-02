@@ -5,6 +5,9 @@ import Feature1 from "../Recent copy/components/Feature";
 import RecPage1 from "../Recent copy/page";
 import { Link } from "react-router-dom";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import ChatSwiper from "../Referral/Refer";
+import DirectImageDisplay from "../Referral/Refer";
+import ImageCarousel from "../Referral/Refer";
 
 const Lower = lazy(() => import("../Lower/Page"));
 const CPPage = lazy(() => import("../Features copy/page"));
@@ -185,7 +188,9 @@ function HeroSection() {
 
       <Suspense fallback={<></>}>
         <RecPage1 />
+
         <RecPage />
+        <ImageCarousel/>
 
         <Page />
 
