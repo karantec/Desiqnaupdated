@@ -40,7 +40,7 @@ function HeroSection() {
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
                     <span className="text-red-500 text-2xl">
                       {" "}
-                      DSA Mentor: 2100+ rated on {"    "}
+                      DSA Mentor: 2100+ (Guardian) rated on {"    "}
                       <a
                         href="https://leetcode.com/u/godiswithme/"
                         className="text-blue-800"
@@ -72,8 +72,8 @@ function HeroSection() {
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
                     <span className="text-red-500 text-2xl">
                       {" "}
-                      558 {"  "} Students from Tier-3 colleges have Cracked 20+
-                      LPA {"  "} offers in the last 10 months.
+                     1158 {"  "} Students from Tier-3 colleges have Cracked 20+
+                      LPA {"  "} offers in the last 18 months.
                     </span>
                   </div>
                 </li>
@@ -81,7 +81,7 @@ function HeroSection() {
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
                     <span>
-                      Separate Live training batch for Beginners vs
+                      Separate Live training Cohort for Beginners vs
                       Intermediates{" "}
                     </span>
                   </div>
@@ -113,7 +113,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Special summer discount offer on July Batch {"    "}
+                    Special  discount offer on August Cohort {"    "}
                     <span className="text-2xl ml-4">
                       <del>₹10000</del>
                     </span>
@@ -121,6 +121,30 @@ function HeroSection() {
                     <span className="text-red-500 text-2xl ml-2">₹3280</span>
                   </div>
                 </li>
+                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                   Due to Rakhi Festival Current Offer Course Price  for 9th August  is <span className="pl-5"> {"    "}- {"    "}</span>
+                    <span className="text-2xl ml-4 text-red-500">
+                   ₹3180
+                    </span>
+                    {"    "} {"    "}
+                   
+                  </div>
+                </li>
+                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                   Price from September onwards <span className="pl-5"> {"    "}- {"    "}</span>
+                    <span className="text-2xl ml-4">
+                   ₹10000
+                    </span>
+                    {"    "} {"    "}
+                   
+                  </div>
+                </li>
+
+                
               </ol>
 
               <div className="flex  flex-wrap  md:justify-start space-x-6 space-y-4">
