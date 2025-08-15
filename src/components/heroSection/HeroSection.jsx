@@ -118,20 +118,20 @@ function HeroSection() {
                       <del>₹10000</del>
                     </span>
                     {"    "} {"    "}
-                    <span className="text-red-500 text-2xl ml-2">₹3280</span>
+                    <span className="text-red-500 text-2xl ml-2">₹3580</span>
                   </div>
                 </li>
-                 {/* <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                   Due to Independence Day Current Offer Course Price  for 15th August  is <span className="pl-5"> {"    "}- {"    "}</span>
-                    <span className="text-2xl ml-4 text-red-500">
-                   ₹3180 from 16 August 10,000
+                   Due to Festival Current Discount  Offer  <span className="pl-2"> {"    "}- {"    "}</span>
+                  <span className="text-2xl ml-4">
+                      <del>₹3580</del>
                     </span>
                     {"    "} {"    "}
-                   
+                    <span className="text-red-500 text-2xl ml-2">₹3280 (For people joining  on 15th August)</span>
                   </div>
-                </li> */}
+                </li>
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
