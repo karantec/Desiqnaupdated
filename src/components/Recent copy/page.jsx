@@ -27,6 +27,7 @@ function RecPage1() {
           details={selectedUser.details}
           student={selectedUser.student}
           company={selectedUser.company}
+          video={selectedUser.video}
           img={selectedUser.img}
         />
       </div>

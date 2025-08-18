@@ -1,4 +1,6 @@
-function Feature({ p, h1, company, details, student, img }) {
+import { Link } from "react-router-dom";
+
+function Feature({ p, h1, company, details, student, img,video }) {
   return (
     <>
       <div >
@@ -18,8 +20,10 @@ function Feature({ p, h1, company, details, student, img }) {
               </p>
               <div className="flex gap-10 mt-3 justify-center md:justify-start">
                 <h1 className="text-xl text-black rounded-md p-3 font-bold">
-                  {student}
+                 <Link to ={video}>  {student}</Link> 
                 </h1>
+                
+             
                 <img src={company} 
                 width={160}
                 alt="img" 

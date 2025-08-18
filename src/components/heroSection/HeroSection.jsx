@@ -129,7 +129,7 @@ function HeroSection() {
                       <del>₹3580</del>
                     </span>
                     {"    "} {"    "}
-                    <span className="text-red-500 text-2xl ml-2">₹3280 (For people joining  on 16th August)</span>
+                    <span className="text-red-500 text-2xl ml-2">₹3280 </span>
                   </div>
                 </li>
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
