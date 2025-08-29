@@ -18,7 +18,15 @@ function HeroSection() {
     <>
       <section className="mt-[-1rem]">
         <section className="text-gray-600 body-font bg-gradient-to-r to-red-50 from-yellow-100">
-          <div className="container mx-auto px-5 py-24 md:flex md:flex-row md:justify-center">
+           <marquee 
+  className="mt-4 pt-4 text-red-600 text-3xl font-bold" 
+  scrollamount="20"
+>
+  Looking for a High-Paying Job/Internship? With 1-1 mentoring, structured training, and referral support, we help you land your dream offer 🚀
+</marquee>
+
+          <div className="container mx-auto px-5 py-28 md:flex md:flex-row md:justify-center">
+    
             <div className="md:w-1/2 lg:pr-24 md:pr-15 mb-16 md:mb-0  ml-5 ">
               <span className="text-xl text-black font-sans font-bold edu-revo">
                 {data.span1} <span className="text-red-700">{data.span2}</span>
