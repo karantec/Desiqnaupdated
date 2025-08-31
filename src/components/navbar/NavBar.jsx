@@ -32,7 +32,7 @@ export function Navbar() {
     <>
    <div className="relative flex flex-row justify-center space-x-3 w-full bg-slate-500 items-center p-2">
   <h1 className="text-center text-white  py-2 h-15 student-cracks">
-    Each day a student Cracks 10+ LPA  SDE offer in our program!
+    Each day a student Cracks 20+ LPA  SDE offer in our program!
   </h1>
   {"   " }
   <Link to= "https://wa.me/918879355057">

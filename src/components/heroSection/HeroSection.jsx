@@ -121,12 +121,12 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Special  discount offer on August Cohort {"    "}
+                    Special  discount offer on September Cohort {"    "}
                     <span className="text-2xl ml-4">
                       <del>₹10000</del>
                     </span>
                     {"    "} {"    "}
-                    <span className="text-red-500 text-2xl ml-2">₹3580</span>
+                    <span className="text-red-500 text-2xl ml-2">₹4000</span>
                   </div>
                 </li>
                  <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
@@ -134,7 +134,7 @@ function HeroSection() {
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
                    Due to Festival Current Discount  Offer  <span className="pl-2"> {"    "}- {"    "}</span>
                   <span className="text-2xl ml-4">
-                      <del>₹3580</del>
+                      <del>₹4000</del>
                     </span>
                     {"    "} {"    "}
                     <span className="text-red-500 text-2xl ml-2">₹3280 </span>
@@ -143,7 +143,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                   Price from September onwards <span className="pl-5"> {"    "}- {"    "}</span>
+                   Price from October onwards <span className="pl-5"> {"    "}- {"    "}</span>
                     <span className="text-2xl ml-4">
                    ₹10000
                     </span>
