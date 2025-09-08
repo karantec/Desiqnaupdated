@@ -22,7 +22,7 @@ function HeroSection() {
   className="mt-4 pt-4 text-red-600 text-3xl font-bold" 
   scrollamount="20"
 >
-  Looking for a High-Payings Job/Internship? With 1-1 mentoring, structured training, and referral support, we help you land your dream offer 🚀
+  Looking for a High-Paying Job/Internship? With 1-1 mentoring, structured training, and referral support, we help you land your dream offer 🚀
 </marquee>
 
           <div className="container mx-auto px-5 py-28 md:flex md:flex-row md:justify-center">
