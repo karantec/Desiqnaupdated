@@ -1,8 +1,17 @@
 export const data = {
-  
-  
   user0: {
-    id: 0,
+    id: 1,
+    p: "Tier-4 College  𝐭𝐨 OffCampus SDE- Internship Offer from Google",
+    h1: " Kumar K Mentoring Student   cracked Off-Campus SDE- Internship Offer from Google after 8 months of advanced DSA(OA + CP+System Design) training.",
+    company:
+      "https://imgs.search.brave.com/ndBBK1I4bvM9345c5kVywK-1VjLMg-iXvLGkGWnzZfY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/a2V5d2VvLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8w/OS9Hb29nbGVfMjAx/NV9sb2dvLnN2Zy0z/MDB4MTAxLnBuZw",
+    student: "Watch Video ",
+    video: "https://www.youtube.com/shorts/W0lWXMxMbfM",
+    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg",
+  },
+
+  user1: {
+    id: 1,
     p: "Student cracks 51 Lakhs/Year SDE-offer from Amazon.",
     h1: " Kumar K Mentoring Student   cracked Off-Campus Full-Time SDE Offer from Amazon  after 8 months of advanced DSA(OA + CP+System Design) training.",
     company:
@@ -12,8 +21,8 @@ export const data = {
     img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1755545052/maxresdefault1_hahx6k.jpg",
   },
 
-   user1: {
-    id: 1,
+  user2: {
+    id: 2,
     p: "Student cracks 27 Lakhs/Year SDE-offer from Qualcomm",
     h1: " Kumar K Mentoring Student   cracked Off-Campus Full-Time SDE offer from Qualcomm  after 8 months of advanced DSA(OA + CP+System Design) training.",
     company:
@@ -23,8 +32,8 @@ export const data = {
     img: "https://img.youtube.com/vi/q9yByJgWV6M/maxresdefault.jpg",
   },
 
-  user2: {
-    id: 2,
+  user3: {
+    id: 3,
     p: " Kumar K Student cracks  40LPA SDE-offer from Paypal - Made Successful switch from Service-based to Product-based company",
     h1: " Kumar K Mentoring Student   cracked Off-Campus Full-Time SDE Offer from PayPal  after 8 months of advanced DSA(OA + CP+System Design) training and successfully make a switch from  service-based company to product-based company",
     company:
@@ -33,8 +42,8 @@ export const data = {
     img: "kishorMpaypl.jpg",
   },
 
-  user3: {
-    id: 3,
+  user4: {
+    id: 4,
     p: " Tier-4 College  𝐭𝐨 OffCampus SDE-Offer from BrowserStack ",
     h1: "  Kumar K  Mentoring Student cracks   OffCampus SDE-Offer  from BrowserStack after 8 months of advanced DSA(OA + CP + System Design) training + OffCampus Referral Support",
     company:
@@ -43,8 +52,8 @@ export const data = {
     img: "akash1.jpg",
   },
 
-  user4: {
-    id: 4,
+  user5: {
+    id: 5,
     p: " Kumar K Student cracks OffCampus  SDE-offer from Myntra!",
     h1: "Mentoring Student cracks  OffCampus  SDE-offer from Myntra after 8 months of advanced DSA(OA + CP +System Design) training and successfully make a switch from  service-based company to product-based company",
     company:
@@ -53,8 +62,8 @@ export const data = {
     img: "harsh.jpg",
   },
 
-  user5: {
-    id: 5,
+  user6: {
+    id: 6,
     p: " 𝐅𝐫𝐨𝐦 Waiter 𝐭𝐨  40LPA 𝐒𝐃𝐄-2   𝐚𝐭 𝐄𝐮𝐫𝐨𝐩𝐞 𝐁𝐚𝐬𝐞𝐝 𝐌𝐍𝐂  ",
     h1: "Mentoring Student cracks  𝐒𝐃𝐄-2  offer from 𝐄𝐮𝐫𝐨𝐩𝐞 𝐁𝐚𝐬𝐞𝐝 𝐌𝐍𝐂 BCG-X  after 8 months of advanced DSA(OA + CP + System Design) training",
     company:
@@ -63,8 +72,8 @@ export const data = {
     img: "anad.png",
   },
 
-  user6: {
-    id: 6,
+  user7: {
+    id: 7,
     p: " Kumar K Student cracks  OffCampus offer  from Amazon",
     h1: "Kumar K Mentoring Student cracks  OffCampus offer from Amazon",
     company:
@@ -72,8 +81,8 @@ export const data = {
     student: "Abirami Gurushanker ",
     img: "abiram.jpg",
   },
-  user7: {
-    id: 7,
+  user8: {
+    id: 8,
     p: "  Kumar K Student  cracks offer  from Google!",
     h1: " Kumar K Mentoring Student cracks  offer from Google after 8 months of advanced DSA(OA + CP) training",
     company:
@@ -81,16 +90,16 @@ export const data = {
     student: "Shivam Kumar ",
     img: "shivamg.jpg",
   },
-  user8: {
-    id: 8,
+  user9: {
+    id: 9,
     p: "   Kumar K Student  cracks offer  Directi ",
     h1: "Kumar K Mentoring Student cracks  offer from Directi  after 8 months of advanced DSA(OA + CP+ System Design) training",
     company: "https://uiuxjobsboard.com/assets/directi.png",
     student: "Aaditya Gupta  ",
     img: "adit.jpg",
   },
-  user9: {
-    id: 9,
+  user10: {
+    id: 10,
     p: " World Rank 160/30000 participants in  LeetCode contest ",
     h1: "Kumar K Mentoring Student Achieves World Rank 160/30000 participants in  LeetCode contest",
     company:
@@ -98,8 +107,8 @@ export const data = {
     student: "Aman singh ",
     img: "amans.jpg",
   },
-  user10: {
-    id: 10,
+  user11: {
+    id: 11,
     p: "Kumar K student Achieved 1800+ Rating on Leetcode",
     h1: " Kumar K   Mentoring Student Achieved 1800+ Rating on Leetcode and got Knight badge on Leetcodes after 8 months of advanced DSA(OA+CP)training",
     company:
@@ -107,8 +116,8 @@ export const data = {
     student: "Asmit Shukla  ",
     img: "asmit.jpg",
   },
-  user11: {
-    id: 11,
+  user12: {
+    id: 12,
     p: " Kumar K Student Cracks SDE-offer  from Barclays",
     h1: " Kumar K  Mentoring Student cracks SDE-offer from Barclays after 8 months of advanced DSA(OA+CP+System Design)training",
     company:
@@ -116,8 +125,8 @@ export const data = {
     student: " Monika Hooda",
     img: "mon.jpg",
   },
-  user12: {
-    id: 12,
+  user13: {
+    id: 13,
     p: " Kumar K Student  Cracked OffCampus  Cisco SDE Offer",
     h1: "Mentoring Student  cracked Cisco OffCampus SDE Offer after 8 months of advanced DSA(OA + CP +System Design) training",
     company:
@@ -125,8 +134,8 @@ export const data = {
     student: "Ronit Deepak Bhavsar ",
     img: "ronit.jpg",
   },
-  user13: {
-    id: 13,
+  user14: {
+    id: 14,
     p: " Kumar K Student   Cracked Off-Campus SDE-OFFER from Paytm",
     h1: "Kumar K Student cracks SDE offer from Paytm after 8 months of advanced DSA(OA + CP + System Design) training and and successfully make a switch from  service-based company to product-based company",
     company:

@@ -13,6 +13,8 @@ export const data = {
   ul4: `(Separate Batch for college students/freshers/working professionals/Non-IT graduates) :- We have high number of selections in each of the categories.`,
   button: "Enroll Now",
   button1: "Ask your Query",
+  button2: "Call For Query",
+  button1: "Ask your Query",
   butt2: "Brochure",
   img: "section2.jpg",
 };

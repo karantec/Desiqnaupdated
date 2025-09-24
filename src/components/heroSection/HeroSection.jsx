@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 const Page = lazy(() => import("../Features/page"));
 import { data } from "./data/data";
+import { FaWhatsapp } from "react-icons/fa";
 import Feature1 from "../Recent copy/components/Feature";
 import RecPage1 from "../Recent copy/page";
 import { Link } from "react-router-dom";
@@ -8,6 +9,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 import ChatSwiper from "../Referral/Refer";
 import DirectImageDisplay from "../Referral/Refer";
 import ImageCarousel from "../Referral/Refer";
+import YouTubeEmbed from "../Youtube";
 
 const Lower = lazy(() => import("../Lower/Page"));
 const CPPage = lazy(() => import("../Features copy/page"));
@@ -155,57 +157,101 @@ function HeroSection() {
                 
               </ol>
 
-              <div className="flex  flex-wrap  md:justify-start space-x-6 space-y-4">
-                {/* Move buttons here */}
+             <div className="flex flex-wrap gap-4 md:justify-start">
+  {/* Google Form Button */}
+  <a
+    aria-label="contact"
+    href="https://docs.google.com/forms/d/1t_Po_G3jdI6D1xfOGyPvSQeyE7fdmlW7MD-WLCr_n2Y/edit"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button
+      role="button"
+      className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+                 before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
+                 before:bg-orange-500 before:transition-all before:duration-500 
+                 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
+    >
+      <span className="relative z-10 text-lg font-semibold">{data.button}</span>
+    </button>
+  </a>
 
-                <a
-                  aria-label="contact"
-                  href="https://docs.google.com/forms/d/1t_Po_G3jdI6D1xfOGyPvSQeyE7fdmlW7MD-WLCr_n2Y/edit"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    role="button"
-                    className="text-red hover:before:bg-red border-2 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
-                  >
-                    <span className="relative z-10  text-2xl ">
-                      {data.button}
-                    </span>
-                  </button>
-                </a>
-                <a
-                  aria-label="contact"
-                  href="https://api.whatsapp.com/send/?phone=918433719235&text&type=phone_number&app_absent=0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    role="button"
-                    className="text-red hover:before:bg-red border-2 pl-1 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
-                  >
-                    <span className="relative z-10  text-xl ">
-                      {data.button1}
-                    </span>
-                  </button>
-                </a>
-                <a
-                  aria-label="course"
-                  href="https://drive.google.com/file/d/1FG_ovSM5tvQ1lJBLSTgQB-pLW7NPlo_E/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    role="button"
-                    className="text-red hover:before:bg-red border-2 rounded-lg border-orange-500 relative h-12 w-40 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-orange-500 before:transition-all before:duration-500 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
-                  >
-                    <span className="relative z-10  text-2xl ">
-                      {data.butt2}
-                    </span>
-                  </button>
-                </a>
-              </div>
-              <br />
-            </div>
+  {/* Another Button */}
+  <a
+  aria-label="whatsapp"
+  href="https://wa.me/919798316854"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button
+    role="button"
+    className="border-2 rounded-lg border-green-500 relative h-12 w-52 overflow-hidden bg-white px-3 text-green-600 shadow-2xl transition-all 
+               before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
+               before:bg-green-500 before:transition-all before:duration-500 
+               hover:text-white hover:shadow-green-500 hover:before:left-0 hover:before:w-full"
+  >
+    <span className="relative z-10 text-lg font-semibold">
+      WhatsApp Call 📞
+    </span>
+  </button>
+</a>
+
+  {/* Program Details Button */}
+  <a
+    aria-label="program"
+    href="https://chic-hamster-fa93db.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button
+      role="button"
+      className="border-2 rounded-lg border-orange-500 relative h-12 w-56 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+                 before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
+                 before:bg-orange-500 before:transition-all before:duration-500 
+                 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
+    >
+      <span className="relative z-10 text-lg font-semibold"> Program Details</span>
+    </button>
+  </a>
+
+  {/* WhatsApp Button */}
+  <a
+    aria-label="whatsapp"
+    href="https://api.whatsapp.com/send/?phone=918433719235&text&type=phone_number&app_absent=0"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button
+      role="button"
+      className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+                 before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
+                 before:bg-orange-500 before:transition-all before:duration-500 
+                 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
+    >
+      <span className="relative z-10 text-lg font-semibold">{data.button1}</span>
+    </button>
+  </a>
+
+  {/* Drive Button */}
+  <a
+    aria-label="course"
+    href="https://drive.google.com/file/d/1FG_ovSM5tvQ1lJBLSTgQB-pLW7NPlo_E/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button
+      role="button"
+      className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+                 before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
+                 before:bg-orange-500 before:transition-all before:duration-500 
+                 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
+    >
+      <span className="relative z-10 text-lg font-semibold">{data.butt2}</span>
+    </button>
+  </a>
+</div>
+</div>
+
 
             <div className="md:w-1/2 mt-[-2rem] w-full lg:max-w-lg">
               <img
@@ -213,6 +259,9 @@ function HeroSection() {
                 alt="hero"
                 src={data.img}
               />
+              <YouTubeEmbed />
+
+
             </div>
           </div>
         </section>
