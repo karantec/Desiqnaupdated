@@ -123,7 +123,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Special  discount offer on October Cohort  (Valid till Oct 5){"    "}
+                    Special  discount offer on October Cohort {"    "}
                     <span className="text-2xl ml-4">
                       <del>₹10000</del>
                     </span>
@@ -145,7 +145,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                   Price from October 5 <span className="pl-5"> {"    "}- {"    "}</span>
+                   Price from November <span className="pl-5"> {"    "}- {"    "}</span>
                     <span className="text-2xl ml-4">
                    ₹10000
                     </span>
