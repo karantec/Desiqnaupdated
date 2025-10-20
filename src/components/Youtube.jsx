@@ -10,7 +10,7 @@ const YouTubeEmbed = () => {
           <div
             className="w-full h-full cursor-pointer relative"
             onClick={() => setPlay(true)}
-          >
+          >P
             {/* Preview Image */}
             <img
               src="https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg"

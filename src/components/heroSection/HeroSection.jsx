@@ -10,6 +10,7 @@ import ChatSwiper from "../Referral/Refer";
 import DirectImageDisplay from "../Referral/Refer";
 import ImageCarousel from "../Referral/Refer";
 import YouTubeEmbed from "../Youtube";
+import CourseComparison from "../Comparison/Compare";
 
 const Lower = lazy(() => import("../Lower/Page"));
 const CPPage = lazy(() => import("../Features copy/page"));
@@ -20,15 +21,16 @@ function HeroSection() {
     <>
       <section className="mt-[-1rem]">
         <section className="text-gray-600 body-font bg-gradient-to-r to-red-50 from-yellow-100">
-           <marquee 
-  className="mt-4 pt-4 text-red-600 text-3xl font-bold" 
-  scrollamount="20"
->
-  Looking for a High-Paying Job/Internship? With 1-1 mentoring, structured training, and referral support, we help you land your dream offer 🚀
-</marquee>
+          <marquee
+            className="mt-4 pt-4 text-red-600 text-3xl font-bold"
+            scrollamount="20"
+          >
+            Looking for a High-Paying Job/Internship? With 1-1 mentoring,
+            structured training, and referral support, we help you land your
+            dream offer 🚀
+          </marquee>
 
           <div className="container mx-auto px-5 py-28 md:flex md:flex-row md:justify-center">
-    
             <div className="md:w-1/2 lg:pr-24 md:pr-15 mb-16 md:mb-0  ml-5 ">
               <span className="text-xl text-black font-sans font-bold edu-revo">
                 {data.span1} <span className="text-red-700">{data.span2}</span>
@@ -55,9 +57,11 @@ function HeroSection() {
                         href="https://leetcode.com/u/godiswithme/"
                         className="text-blue-800"
                       >
-                        Leetcode (Top 1% in world).
+                        Leetcode (Top 1% in world),
+                         Expert Rated on <a href="https://codeforces.com/profile/Greatest789" className="text-blue-800">Codeforces</a>
                       </a>{" "}
                     </span>
+                    
                   </div>
                 </li>
                 <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
@@ -82,8 +86,17 @@ function HeroSection() {
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
                     <span className="text-red-500 text-2xl">
                       {" "}
-                     1158 {"  "} Students from Tier-3 colleges have Cracked 20+
+                      1158 {"  "} Students from Tier-3 colleges have Cracked 20+
                       LPA {"  "} offers in the last 18 months.
+                    </span>
+                  </div>
+                </li>
+                 <li className="mb-4  md:items-start leading-normal  text-md  text-gray-900 font-sans font-bold">
+                  <div className="flex items-start">
+                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
+                    <span className="text-red-500 text-2xl">
+                      {" "}
+                      Kumar K secures <a href="https://www.linkedin.com/feed/update/urn:li:activity:7384452805387784192/"><span  className="text-blue-500">All India Rank 7  (World Rank 83)</span></a> in Facebook(Meta) HackerCup 2025
                     </span>
                   </div>
                 </li>
@@ -123,7 +136,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Special  discount offer on October Cohort {"    "}
+                    Special discount offer on October Cohort {"    "}
                     <span className="text-2xl ml-4">
                       <del>₹10000</del>
                     </span>
@@ -131,11 +144,15 @@ function HeroSection() {
                     <span className="text-red-500 text-2xl ml-2">₹4000</span>
                   </div>
                 </li>
-                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
+                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                     Extra  Discount due to  Upcoming Diwali  Offer  <span className="pl-2"> {"    "}- {"    "}</span>
-                  <span className="text-2xl ml-4">
+                    Extra Discount due to Diwali Offer (valid Till Oct 20){" "}
+                    <span className="pl-2">
+                      {" "}
+                      {"    "}- {"    "}
+                    </span>
+                    <span className="text-2xl ml-4">
                       <del>₹4000</del>
                     </span>
                     {"    "} {"    "}
@@ -145,113 +162,120 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                   Price from November <span className="pl-5"> {"    "}- {"    "}</span>
-                    <span className="text-2xl ml-4">
-                   ₹10000
+                    Price from November{" "}
+                    <span className="pl-5">
+                      {" "}
+                      {"    "}- {"    "}
                     </span>
+                    <span className="text-2xl ml-4">₹10000</span>
                     {"    "} {"    "}
-                   
                   </div>
                 </li>
-
-                
               </ol>
 
-             <div className="flex flex-wrap gap-4 md:justify-start">
-  {/* Google Form Button */}
-  <a
-    aria-label="contact"
-    href="https://docs.google.com/forms/d/1t_Po_G3jdI6D1xfOGyPvSQeyE7fdmlW7MD-WLCr_n2Y/edit"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button
-      role="button"
-      className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+              <div className="flex flex-wrap gap-4 md:justify-start">
+                {/* Google Form Button */}
+                <a
+                  aria-label="contact"
+                  href="https://docs.google.com/forms/d/1t_Po_G3jdI6D1xfOGyPvSQeyE7fdmlW7MD-WLCr_n2Y/edit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    role="button"
+                    className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
                  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
                  before:bg-orange-500 before:transition-all before:duration-500 
                  hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
-    >
-      <span className="relative z-10 text-lg font-semibold">{data.button}</span>
-    </button>
-  </a>
+                  >
+                    <span className="relative z-10 text-lg font-semibold">
+                      {data.button}
+                    </span>
+                  </button>
+                </a>
 
-  {/* Another Button */}
-  <a
-  aria-label="whatsapp"
-  href="https://wa.me/919798316854"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <button
-    role="button"
-    className="border-2 rounded-lg border-green-500 relative h-12 w-52 overflow-hidden bg-white px-3 text-green-600 shadow-2xl transition-all 
+                {/* Another Button */}
+                <a
+                  aria-label="whatsapp"
+                  href="https://wa.me/919798316854"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    role="button"
+                    className="border-2 rounded-lg border-green-500 relative h-12 w-52 overflow-hidden bg-white px-3 text-green-600 shadow-2xl transition-all 
                before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
                before:bg-green-500 before:transition-all before:duration-500 
                hover:text-white hover:shadow-green-500 hover:before:left-0 hover:before:w-full"
-  >
-    <span className="relative z-10 text-lg font-semibold">
-      WhatsApp Call 📞
-    </span>
-  </button>
-</a>
+                  >
+                    <span className="relative z-10 text-lg font-semibold">
+                      WhatsApp Call 📞
+                    </span>
+                  </button>
+                </a>
 
-  {/* Program Details Button */}
-  <a
-    aria-label="program"
-    href="https://chic-hamster-fa93db.netlify.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button
-      role="button"
-      className="border-2 rounded-lg border-orange-500 relative h-12 w-56 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+                {/* Program Details Button */}
+                <a
+                  aria-label="program"
+                  href="https://chic-hamster-fa93db.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    role="button"
+                    className="border-2 rounded-lg border-orange-500 relative h-12 w-56 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
                  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
                  before:bg-orange-500 before:transition-all before:duration-500 
                  hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
-    >
-      <span className="relative z-10 text-lg font-semibold"> Program Details</span>
-    </button>
-  </a>
+                  >
+                    <span className="relative z-10 text-lg font-semibold">
+                      {" "}
+                      Program Details
+                    </span>
+                  </button>
+                </a>
 
-  {/* WhatsApp Button */}
-  <a
-    aria-label="whatsapp"
-    href="https://api.whatsapp.com/send/?phone=918433719235&text&type=phone_number&app_absent=0"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button
-      role="button"
-      className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+                {/* WhatsApp Button */}
+                <a
+                  aria-label="whatsapp"
+                  href="https://api.whatsapp.com/send/?phone=918433719235&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    role="button"
+                    className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
                  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
                  before:bg-orange-500 before:transition-all before:duration-500 
                  hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
-    >
-      <span className="relative z-10 text-lg font-semibold">{data.button1}</span>
-    </button>
-  </a>
+                  >
+                    <span className="relative z-10 text-lg font-semibold">
+                      {data.button1}
+                    </span>
+                  </button>
+                </a>
 
-  {/* Drive Button */}
-  <a
-    aria-label="course"
-    href="https://drive.google.com/file/d/1FG_ovSM5tvQ1lJBLSTgQB-pLW7NPlo_E/view?usp=sharing"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button
-      role="button"
-      className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+                {/* Drive Button */}
+                <a
+                  aria-label="course"
+                  href="https://drive.google.com/file/d/1FG_ovSM5tvQ1lJBLSTgQB-pLW7NPlo_E/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    role="button"
+                    className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
                  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
                  before:bg-orange-500 before:transition-all before:duration-500 
                  hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
-    >
-      <span className="relative z-10 text-lg font-semibold">{data.butt2}</span>
-    </button>
-  </a>
-</div>
-</div>
-
+                  >
+                    <span className="relative z-10 text-lg font-semibold">
+                      {data.butt2}
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
 
             <div className="md:w-1/2 mt-[-2rem] w-full lg:max-w-lg">
               <img
@@ -260,18 +284,17 @@ function HeroSection() {
                 src={data.img}
               />
               <YouTubeEmbed />
-
-
             </div>
           </div>
         </section>
       </section>
 
       <Suspense fallback={<></>}>
+      <CourseComparison/>
         <RecPage1 />
 
         <RecPage />
-        <ImageCarousel/>
+        <ImageCarousel />
 
         <Page />
 
