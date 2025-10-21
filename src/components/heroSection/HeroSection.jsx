@@ -58,8 +58,9 @@ function HeroSection() {
                         className="text-blue-800"
                       >
                         Leetcode (Top 1% in world),
-                         Expert Rated on <a href="https://codeforces.com/profile/Greatest789" className="text-blue-800">Codeforces</a>
+                        
                       </a>{" "}
+                       <a href="https://codeforces.com/profile/Greatest789" className="text-blue-800"> Expert Rated on  Codeforces</a>
                     </span>
                     
                   </div>
