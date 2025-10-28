@@ -218,7 +218,7 @@ function HeroSection() {
                 {/* Program Details Button */}
                 <a
                   aria-label="program"
-                  href="https://chic-hamster-fa93db.netlify.app/"
+                  href="https://desiqna-details-website.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
