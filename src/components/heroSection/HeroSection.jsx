@@ -148,7 +148,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Extra Discount due to Diwali Offer (valid Till Oct 20){" "}
+                    Extra Discount due to Diwali Offer (valid Till Oct 31){" "}
                     <span className="pl-2">
                       {" "}
                       {"    "}- {"    "}
