@@ -14,7 +14,7 @@ export default function CourseComparison() {
       others: false
     },
      {
-      feature: "Direct Job Referrals(FANGM + top PBC)",
+      feature: "Direct Job Referrals(FAANGM + top PBC)",
       kumarK: true,
       others: false
     },
