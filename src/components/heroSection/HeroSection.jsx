@@ -139,7 +139,7 @@ function HeroSection() {
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
                    Price before November 8 {"    "}
                                       
-                    <span className="text-red-500 text-2xl ml-2">₹4000</span>
+                    <span className="text-red-500 text-2xl ml-2">₹3280</span>
                   </div>
                 </li>
                
