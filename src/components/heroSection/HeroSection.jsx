@@ -137,37 +137,17 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Special discount offer on October Cohort {"    "}
-                    <span className="text-2xl ml-4">
-                      <del>₹10000</del>
-                    </span>
-                    {"    "} {"    "}
+                   Price before November 8 {"    "}
+                                      
                     <span className="text-red-500 text-2xl ml-2">₹4000</span>
                   </div>
                 </li>
+               
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Extra Discount due to Diwali Offer (valid Till Oct 31){" "}
-                    <span className="pl-2">
-                      {" "}
-                      {"    "}- {"    "}
-                    </span>
-                    <span className="text-2xl ml-4">
-                      <del>₹4000</del>
-                    </span>
-                    {"    "} {"    "}
-                    <span className="text-red-500 text-2xl ml-2">₹3280 </span>
-                  </div>
-                </li>
-                <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
-                  <div className="flex items-start">
-                    <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Price from November{" "}
-                    <span className="pl-5">
-                      {" "}
-                      {"    "}- {"    "}
-                    </span>
+                    Price after November 8{" "}
+                    
                     <span className="text-2xl ml-4">₹10000</span>
                     {"    "} {"    "}
                   </div>
