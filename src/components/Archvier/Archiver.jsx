@@ -3,8 +3,43 @@ import React, { useState } from 'react';
 const CardComponent = () => {
   // Sample data (replace this with your actual data)
   const data = [
+    
+    
+    {
+    
+     imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1762423413/WhatsApp_Image_2025-11-06_at_15.12.02_5539f880_urbzg3.jpg',
+    subtitle: 'SDE Offer Amazon', 
+     content: 'Kumar K student cracks  Off campus Amazon  SDE  internship offer after 8 months of high level DSA + OA + CP training and 1-1 Mentorship',
+     student:'Vyom Goyal',
+     companyLogo:'https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc'
    
+   },
+    {
+     imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg',
+    subtitle: "Tier-4 College to OffCampus SDE- Internship Offer from Google",
+    content: "Kumar K Mentoring Student cracked Off-Campus SDE- Internship Offer from Google after 8 months of advanced DSA(OA + CP + System Design) training.",
+    student:'Yashasvi Sharma',
+
+    companyLogo: "https://imgs.search.brave.com/7oRMZ5ifuTywDSOtzsemEMjW7jsmHMLZeDMZPLycObU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmVjdG9ybG9nby56/b25lL2xvZ29zL2dv/b2dsZS9nb29nbGUt/dGlsZS5zdmc",
+  },
+
+   {
+     imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1762425009/WhatsApp_Image_2025-11-06_at_15.58.51_4043db9e_flpein.jpg',
+    subtitle: "Tier-3 College to Google + Amazon Internship",
+    content: "Kumar K Mentoring Student cracked  SDE- Internship Offer from Google  and Amazon after 8 months of advanced DSA(OA + CP + System Design) training.",
+    student:'Vivek Haldar',
+    companyLogo:'https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc'
+  },
+
+  {
+    
+     imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1762422404/WhatsApp_Image_2025-11-06_at_15.12.40_5f9aa3b3_ujhkba.jpg',
+    subtitle: 'SDE Offer Nutanix 60LPA', 
+     content: 'Kumar K student cracks  60LPA SDE offer from Nutanix after 8 months of high level DSA + OA + CP training and 1-1 Mentorship',
+     student:'Charul',
+     companyLogo:'https://imgs.search.brave.com/XM51Jte_QPvQc1XDvKnNbGcDij2ovYyKVQwSMgcMuaA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE5LzEw/L051dGFuaXgtTG9n/by01MDB4MjgxLnBu/Zw'
    
+   },
     {
     
      imageSrc: 'sheenam.jpg',
@@ -109,7 +144,7 @@ const CardComponent = () => {
     subtitle: 'SDE Offer OFF Campus Microsoft', 
      content: 'Kumar K  Student Rashi Bhave - Cracked 48LPA Microsoft Off Campus Offer  as a fresher in recession. This was possible because we personally guided her before each interview round. Trained her hard for FAANG level OA + Interview.😍😍😇😇      ',
      student:'Rashi Bhave',
-     companyLogo:'https://media.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_200_200/0/1630652622688/microsoft_logo?e=1730332800&v=beta&t=b2tqFbKSHIxsnTyb9vx-_iby8KYuTvcD9lHWUZIL2ug'
+     companyLogo:'https://imgs.search.brave.com/cU13n8Wu61ZfYrYhBzrndNulyMPpE6gXQZmyS9kn4tg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZXBuZ2xvZ29z/LmNvbS91cGxvYWRz/L21pY3Jvc29mdC1s/b2dvLTQucG5n'
    },
     { 
       imageSrc: '/Achiever/akhil.jpg',
@@ -653,7 +688,7 @@ const CardComponent = () => {
     
     
     },
-    { imageSrc: 'https://s3.amazonaws.com/37assets/svn/765-default-avatar.png',
+    { imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1762423031/WhatsApp_Image_2025-11-06_at_15.26.43_c5f8d4a7_rvyvrn.jpg',
      subtitle: 'Tier-3 College to 28 LPA SDE Offer OFF Campus',
       content: 'On 12th October Student cracked 18 LPA SDE Offer at Barclays! ',
       student:'Saniya Inamdar',

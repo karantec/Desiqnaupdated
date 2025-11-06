@@ -29,6 +29,7 @@ function RecPage1() {
           company={selectedUser.company}
           video={selectedUser.video}
           img={selectedUser.img}
+         
         />
       </div>
       <div className='flex items-center mb-3 gap-5 justify-center flex-wrap'>
