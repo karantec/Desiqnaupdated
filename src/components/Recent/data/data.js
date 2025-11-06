@@ -12,8 +12,8 @@ export const data = {
 
   user01: {
     id: 0,
-    p: "Service Based to 28LPA SDE Offer at Morgan Stanley",
-    h1: "Kumar K Mentoring Student cracks off-campus SDE-offer from Morgan Stanley after 8 months of advanced DSA(OA + CP) training",
+    p: " 1-year of gap and unemployment to 28LPA SDE Offer at Morgan Stanley",
+    h1: "From a 1-year of gap and unemployment to an off-campus SDE offer at Morgan Stanley — achieved after 8 months of advanced DSA (OA + CP+ System Design) training under Kumar K Mentoring Cohort",
     company:
       "https://imgs.search.brave.com/lwnkMzwnWC_vt7gI8Ddhfy1_WIMNrpWEDhjdSKPmJS4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDQvTW9yZ2FuLVN0/YW5sZXktTG9nby01/MDB4MjgxLnBuZw",
     student: "Shreyash Mahalle(Watch post)",
