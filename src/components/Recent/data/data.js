@@ -16,7 +16,7 @@ export const data = {
     h1: "Kumar K Mentoring Student cracks off-campus SDE-offer from Morgan Stanley after 8 months of advanced DSA(OA + CP) training",
     company:
       "https://imgs.search.brave.com/lwnkMzwnWC_vt7gI8Ddhfy1_WIMNrpWEDhjdSKPmJS4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDQvTW9yZ2FuLVN0/YW5sZXktTG9nby01/MDB4MjgxLnBuZw",
-    student: "Shreyas(Watch video)",
+    student: "Shreyash Mahalle(Watch post)",
     video:
       "https://www.linkedin.com/posts/shreyash-mahalle-794301220_morganstanley-softwaredeveloper-newbeginning-activity-7317086165361221632-9q2y",
     img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762429901/1744529285174_qbgg0n.jpg",
