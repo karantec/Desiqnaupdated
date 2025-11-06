@@ -13,8 +13,7 @@ export const data = {
     id: 1,
     p: "Tier-3 College to Google + Amazon Internship",
     h1: "Kumar K Mentoring Student cracked SDE- Internship Offer from Google and Amazon after 8 months of advanced DSA(OA + CP + System Design) training.",
-    company:
-      "https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4MS5wbmc",
+    company:"https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4MS5wbmc",
     student: "Watch Video",
     video: "https://www.youtube.com/shorts/imTzPWC9CPo",
     img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762425009/WhatsApp_Image_2025-11-06_at_15.58.51_4043db9e_flpein.jpg",
