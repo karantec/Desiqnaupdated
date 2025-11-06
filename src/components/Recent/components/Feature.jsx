@@ -1,4 +1,4 @@
-function Feature({ p, h1, company, details, student, img }) {
+function Feature({ p, h1, company, details, student, img ,video}) {
   return (
     <>
       <div >
@@ -17,9 +17,12 @@ function Feature({ p, h1, company, details, student, img }) {
                 {details}
               </p>
               <div className="flex gap-10 mt-3 justify-center md:justify-start">
-                <h1 className="text-xl text-black rounded-md p-3 font-bold">
-                  {student}
-                </h1>
+              <h1 className="text-xl text-black rounded-md p-3 font-bold">
+  <a href={video} target="_blank" rel="noopener noreferrer">
+    {student}
+  </a>
+</h1>
+
                 <img src={company} 
                 width={160}
                 alt="img" 
