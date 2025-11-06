@@ -6,8 +6,20 @@ export const data = {
     company:
       "https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc",
     student: "Aman Advani(Watch video)",
-    video:"https://www.youtube.com/watch?v=8awJisQrdmQ",
+    video: "https://www.youtube.com/watch?v=8awJisQrdmQ",
     img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762429189/8awJisQrdmQ-HD_zmbi5u.jpg",
+  },
+
+  user01: {
+    id: 0,
+    p: "Service Based to 28LPA SDE Offer at Morgan Stanley",
+    h1: "Kumar K Mentoring Student cracks off-campus SDE-offer from Morgan Stanley after 8 months of advanced DSA(OA + CP) training",
+    company:
+      "https://imgs.search.brave.com/lwnkMzwnWC_vt7gI8Ddhfy1_WIMNrpWEDhjdSKPmJS4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDQvTW9yZ2FuLVN0/YW5sZXktTG9nby01/MDB4MjgxLnBuZw",
+    student: "Shreyas(Watch video)",
+    video:
+      "https://www.linkedin.com/posts/shreyash-mahalle-794301220_morganstanley-softwaredeveloper-newbeginning-activity-7317086165361221632-9q2y",
+    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762429901/1744529285174_qbgg0n.jpg",
   },
 
   user1: {
@@ -43,7 +55,7 @@ export const data = {
     p: "SDE Offer Off Campus from Microsoft!",
     h1: "Kumar K Mentoring Student cracks off-campus SDE offer from Microsoft",
     company:
-      "https://media.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_200_200/0/1630652622688/microsoft_logo?e=1730332800&v=beta&t=b2tqFbKSHIxsnTyb9vx-_iby8KYuTvcD9lHWUZIL2ug",
+      "https://media.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_200_200/0/1630652622688/microsoft_logo",
     student: "Riya Das",
     img: "riyamicrosoft.jpg",
   },
@@ -62,7 +74,7 @@ export const data = {
     p: "SDE Offer Off Campus from Google!",
     h1: "Kumar K Mentoring Student cracks off-campus SDE-2 offer from Google",
     company:
-      "https://media.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1631311446380?e=1730332800&v=beta&t=ZSD7tNLoSDPv8l3299DGgwEq97uvRqy9S6RpUsiB6jk",
+      "https://media.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1631311446380",
     student: "Paras Yadav",
     img: "parass.jpg",
   },
@@ -72,7 +84,7 @@ export const data = {
     p: "SDE Offer Off Campus from JustPay",
     h1: "Kumar K Mentoring Student cracks SDE offer from JustPay",
     company:
-      "https://media.licdn.com/dms/image/D560BAQGtsY1kDgXExg/company-logo_100_100/0/1720767560345/juspay_technologies_logo?e=1730332800&v=beta&t=HWgpSfG3OCKpXTA1T9VziqfOt4aENKnIpsT3seRGOMc",
+      "https://media.licdn.com/dms/image/D560BAQGtsY1kDgXExg/company-logo_100_100/0/1720767560345",
     student: "Likhith Kumar",
     img: "likhitKumar.jpg",
   },
@@ -82,7 +94,7 @@ export const data = {
     p: "Cracks 80LPA International Remote SDE Role From Europe.",
     h1: "Mentoring Student cracks Remote Job offer from 10up after 8 months of advanced DSA(OA + CP + System Design) training",
     company:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7g1EvVfSLmF7nGZ8uMMSWiQevoVh2eU7G7A&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7g1EvVfSLmF7nGZ8uMMSWiQevoVh2eU7G7A",
     student: "Ritobroto Mukherjee",
     img: "rutu.jpg",
   },
@@ -92,7 +104,7 @@ export const data = {
     p: "Tier-3 College to SDE offer from PhonePe",
     h1: "Mentoring Student cracks off-campus SDE offer from PhonePe after 8 months of advanced DSA(OA + CP) training",
     company:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTovIQy7Sqh32fhLLF9N9_uRE4ZgnwQ4FMu2w&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTovIQy7Sqh32fhLLF9N9_uRE4ZgnwQ4FMu2w",
     student: "MD ISTAKHAR ANSARIMD",
     img: "ist.jpg",
   },
@@ -129,7 +141,7 @@ export const data = {
     p: "Service Based to Product Based (Microsoft)",
     h1: "Kumar K Student cracks SDE offer from Microsoft after 8 months of advanced DSA(OA + CP) training.",
     company:
-      "https://th.bing.com/th/id/R.ceaf8384322af790486cff176a0a2f24?rik=%2frhfgn3pSDY96g&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f4%2fMicrosoft-Logo-PNG-Photos.png&ehk=j3MPMx6Wzw3iPqgtyfnR%2f6PQP7M6fhNDqeeEYvA9G%2f4%3d&risl=&pid=ImgRaw&r=0",
+      "https://pngmart.com/files/4/Microsoft-Logo-PNG-Photos.png",
     student: "Riddhi",
     img: "Riddhi1.jpg",
   },
