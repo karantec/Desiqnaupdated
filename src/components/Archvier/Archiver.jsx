@@ -3,7 +3,21 @@ import React, { useState } from 'react';
 const CardComponent = () => {
   // Sample data (replace this with your actual data)
   const data = [
+    {
+     subtitle: "Tier-3 College to OffCampus SDE- Internship Offer from Adobe",
+    imageSrc: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762427876/WhatsApp_Image_2025-11-06_at_16.44.04_d23ac4e3_xttuoc.jpg",
+    content: "Kumar K student cracks OffCampus Adobe SDE internship offer after 8 months of high level DSA + OA + CP training and 1-1 Mentorship",
+    student: "Anya Sharma (View Post)",
+    company: "https://imgs.search.brave.com/nD3yKjOY9c2xNAOXoGzR2sFxNjutwgRAjaqLjhWa1pA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDYvQWRvYmUtTG9n/by0xOTkzLTIwMTQt/NzAweDM5NC5wbmc",
+  },
+   {
+    subtitle: "Service Based to 25LPA SDE Offer at Amazon",
+    content: "Kumar K Mentoring Student cracks off-campus SDE-offer from Amazon after 8 months of advanced DSA(OA + CP) training",
+    company:"https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc",
+    student: "Aman Advani",
     
+    imageSrc: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762429189/8awJisQrdmQ-HD_zmbi5u.jpg",
+},
     
     {
     
@@ -14,12 +28,12 @@ const CardComponent = () => {
      companyLogo:'https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc'
    
    },
+
     {
      imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg',
     subtitle: "Tier-4 College to OffCampus SDE- Internship Offer from Google",
     content: "Kumar K Mentoring Student cracked Off-Campus SDE- Internship Offer from Google after 8 months of advanced DSA(OA + CP + System Design) training.",
     student:'Yashasvi Sharma',
-
     companyLogo: "https://imgs.search.brave.com/7oRMZ5ifuTywDSOtzsemEMjW7jsmHMLZeDMZPLycObU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmVjdG9ybG9nby56/b25lL2xvZ29zL2dv/b2dsZS9nb29nbGUt/dGlsZS5zdmc",
   },
 
