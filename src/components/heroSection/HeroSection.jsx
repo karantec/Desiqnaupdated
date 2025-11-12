@@ -137,7 +137,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                   Price before November 11 - {"    "}
+                   Price before November 12 - {"    "}
                                       
                     <span className="text-red-500 text-2xl ml-2">₹3280</span>
                   </div>
@@ -146,8 +146,8 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Price after November 11 - {"    "}
-                  
+                    Price after November 12- {"    "}
+            
                     <span className="text-2xl ml-4">₹10000</span>
                     {"    "} {"    "}
                   </div>
