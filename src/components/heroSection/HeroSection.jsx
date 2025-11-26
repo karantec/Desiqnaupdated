@@ -262,7 +262,7 @@ function HeroSection() {
               <img
                 className="object-cover object-center rounded-md shadow-lg transition-transform duration-500 transform hover:scale-105"
                 alt="hero"
-                src={data.img}
+                src="https://res.cloudinary.com/de4ks8mkh/image/upload/v1764168224/WhatsApp_Image_2025-11-26_at_20.06.59_10503e62_ra3jnz.jpg"
               />
               <YouTubeEmbed />
             </div>
