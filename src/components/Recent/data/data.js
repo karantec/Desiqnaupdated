@@ -26,8 +26,7 @@ export const data = {
     id: 1,
     p: "Tier-3 College to 50LPA SDE Offer at Amazon",
     h1: "Kumar K Mentoring Student cracks off-campus SDE-offer from Amazon after 8 months of advanced DSA(OA + CP) training",
-    company:
-      "https://imgs.search.brave.com/L_7FnsX4liPDGfodO__2EQzd0nyT8gI88rPQr6Y741Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmdpbWcuY29tL3VwbG9hZHMvYW1hem9uL2FtYXpvbl9QTkcyMS5wbmc",
+    company: "https://miro.medium.com/max/2000/0*c1o1-n4LhZEJirvq.png",
     student: "Sukriti Sinha",
     img: "Suk.jpg",
   },
@@ -45,7 +44,8 @@ export const data = {
     id: 3,
     p: "Kumar K Student Cracks offer from Google!",
     h1: "Mentoring Student cracks offer from Google after 8 months of advanced DSA(OA + CP) training",
-    company: "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
+    company:
+      "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
     student: "Achyut Gupta",
     img: "Ach.jpg",
   },
@@ -55,7 +55,7 @@ export const data = {
     p: "SDE Offer Off Campus from Microsoft!",
     h1: "Kumar K Mentoring Student cracks off-campus SDE offer from Microsoft",
     company:
-      "https://media.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_200_200/0/1630652622688/microsoft_logo",
+      "https://www.pixartprinting.co.uk/blog/wp-content/uploads/2023/08/Cover-Microsoft.jpg",
     student: "Riya Das",
     img: "riyamicrosoft.jpg",
   },
@@ -64,7 +64,8 @@ export const data = {
     id: 5,
     p: "Tier-3 College to SDE-2 Google!",
     h1: "Mentoring Student cracks off-campus SDE-2 offer from Google!",
-    company: "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
+    company:
+      "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
     student: "Akash",
     img: "akash.jpg",
   },
@@ -74,7 +75,7 @@ export const data = {
     p: "SDE Offer Off Campus from Google!",
     h1: "Kumar K Mentoring Student cracks off-campus SDE-2 offer from Google",
     company:
-      "https://media.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1631311446380",
+      "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
     student: "Paras Yadav",
     img: "parass.jpg",
   },
@@ -84,7 +85,7 @@ export const data = {
     p: "SDE Offer Off Campus from JustPay",
     h1: "Kumar K Mentoring Student cracks SDE offer from JustPay",
     company:
-      "https://media.licdn.com/dms/image/D560BAQGtsY1kDgXExg/company-logo_100_100/0/1720767560345",
+      "https://th.bing.com/th/id/OIP.ZA_jLCcbxp5ToFFqpWxUQAHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
     student: "Likhith Kumar",
     img: "likhitKumar.jpg",
   },
@@ -113,7 +114,8 @@ export const data = {
     id: 10,
     p: "Tier-3 College to Google and Atlassian Offcampus",
     h1: "Mentoring Student cracks off-campus offers from Google and Atlassian after 8 months of advanced DSA(OA + CP) training",
-    company: "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
+    company:
+      "https://iconape.com/wp-content/files/ur/370111/svg/google-logo-icon-png-svg.png",
     student: "Anusha Yerram",
     img: "anusha.jpg",
   },
@@ -122,7 +124,8 @@ export const data = {
     id: 11,
     p: "Tier-3 College to SDE Offer from Zomato(Blinkit)",
     h1: "Kumar K Student cracks SDE offer from Zomato(Blinkit) after 8 months of advanced DSA(OA + CP) training despite having failures in past",
-    company: "https://imgs.search.brave.com/iIfIU6Q2wjRtp6GxvLRySomBiiHR77-AX3QsO8q6Rlw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZG93bmxvYWQub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIw/LzAyL3pvbWF0by1s/b2dvLnBuZw",
+    company:
+      "https://imgs.search.brave.com/iIfIU6Q2wjRtp6GxvLRySomBiiHR77-AX3QsO8q6Rlw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZG93bmxvYWQub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIw/LzAyL3pvbWF0by1s/b2dvLnBuZw",
     student: "Aadit Bhargava",
     img: "31.jpg",
   },
@@ -131,7 +134,8 @@ export const data = {
     id: 12,
     p: "Tier-3 College to SDE Offer from Zomato(Blinkit)",
     h1: "Kumar K Student cracks SDE offer from Zomato(Blinkit) after 8 months of advanced DSA(OA + CP) training despite having failures in past",
-    company: "zomato.jpg",
+    company:
+      "https://imgs.search.brave.com/iIfIU6Q2wjRtp6GxvLRySomBiiHR77-AX3QsO8q6Rlw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZG93bmxvYWQub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIw/LzAyL3pvbWF0by1s/b2dvLnBuZw",
     student: "Aryan",
     img: "aryan.png",
   },
@@ -140,8 +144,7 @@ export const data = {
     id: 13,
     p: "Service Based to Product Based (Microsoft)",
     h1: "Kumar K Student cracks SDE offer from Microsoft after 8 months of advanced DSA(OA + CP) training.",
-    company:
-      "https://pngmart.com/files/4/Microsoft-Logo-PNG-Photos.png",
+    company: "https://pngmart.com/files/4/Microsoft-Logo-PNG-Photos.png",
     student: "Riddhi",
     img: "Riddhi1.jpg",
   },
