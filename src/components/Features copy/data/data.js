@@ -132,14 +132,13 @@ export const data = {
     // company:"https://www.linkedin.com/posts/saisri-angajala_leetcode-leetcodechallenge-problemsolving-activity-7142009512005091329-B2Rj/?utm_source=share&utm_medium=member_android",
     img: "Ayush.jpg",
   },
-  //   user13: {
-  //     id: 13,
-  //     p: "Coding Beginner to ICPC Regionalist",
-  //     h1: "Kumar K mentoring student — Beginner to ICPC Regionalist",
-
-  //     student: "Sai Harsha ",
-  //     company:
-  //       "https://www.linkedin.com/posts/kumark1_dsa-icpc-activity-7397638767358119936-IwL7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFuvz3QB1cLrYxEaA729n2AIvaQm_LNTN2c",
-  //     img: "Ayush.jpg",
-  //   },
+  user13: {
+    id: 13,
+    p: "Coding Beginner to ICPC Regionalist 2025 in 1 year of training",
+    h1: "Kumar K mentoring student — becomes ICPC Regionalist after  1 year of  Daily Live Training  for  Hard Level DSA + OA + CP",
+    student: "Sai Harsha ",
+    company:
+      "https://www.linkedin.com/posts/kumark1_dsa-icpc-activity-7397638767358119936-IwL7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFuvz3QB1cLrYxEaA729n2AIvaQm_LNTN2c",
+    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1764233755/WhatsApp_Image_2025-11-27_at_14.20.20_43faf963_ifuk1s.jpg",
+  },
 };
