@@ -13,7 +13,8 @@ export const data = {
     id: 1,
     p: "Tier-3 College to Google + Amazon Internship",
     h1: "Kumar K Mentoring Student cracked SDE- Internship Offer from Google and Amazon after 8 months of advanced DSA(OA + CP + System Design) training.",
-    company:"https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc",
+    company:
+      "https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc",
     student: "Watch Video",
     video: "https://www.youtube.com/shorts/imTzPWC9CPo",
     img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762425009/WhatsApp_Image_2025-11-06_at_15.58.51_4043db9e_flpein.jpg",
@@ -56,7 +57,8 @@ export const data = {
     id: 5,
     p: "Student cracks 27 Lakhs/Year SDE-offer from Qualcomm",
     h1: "Kumar K Mentoring Student cracked Off-Campus Full-Time SDE offer from Qualcomm after 8 months of advanced DSA(OA + CP + System Design) training.",
-    company: "https://www.shutterstock.com/image-photo/qualcomm-logo",
+    company:
+      "https://imgs.search.brave.com/4SViid5zuUKSMjuT1TngOwvNZ-P8tVVX_x4AevN6hIY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/MmJiMWZiNmI2MTcz/ZDUxZGZjNDc0YjIu/cG5n",
     student: "Watch Video",
     video: "https://www.youtube.com/watch?v=q9yByJgWV6M",
     img: "https://img.youtube.com/vi/q9yByJgWV6M/maxresdefault.jpg",
@@ -88,7 +90,8 @@ export const data = {
     id: 8,
     p: "Kumar K Student cracks OffCampus SDE-offer from Myntra!",
     h1: "Mentoring Student cracks OffCampus SDE-offer from Myntra after 8 months of advanced DSA(OA + CP + System Design) training.",
-    company: "https://www.myntra.com/assets/MyntraWebLogo.png",
+    company:
+      "https://imgs.search.brave.com/NLfIb3F1aXNRPYGVGszmFSM2g7vP14TRLcPBV1eau3s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvUXFC/TTYzWk5tRWlSZWxq/em1TYWtuSld0SjM2/WG9rbG15TGprWW1r/bVJpWS5qcGc_d2lk/dGg9NjQwJmNyb3A9/c21hcnQmYXV0bz13/ZWJwJnM9N2VjMzcy/YmU5NjIxZmQ0M2U4/ZmRmYTcyZDFhYjQ5/Mjg0NzljYmYxMg",
     student: "Kumar Harsh",
     img: "harsh.jpg",
   },
@@ -131,7 +134,7 @@ export const data = {
     p: "Kumar K Student cracks offer from Directi and Zomato",
     h1: "Mentoring Student cracks offer from Directi and Zomato after 8 months of advanced DSA(OA + CP + System Design) training",
     company:
-      "https://imgs.search.brave.com/YDIL1tcLER0y6Jkbo92AHD4aCru7_1IyfeDkQBan4Hw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2l0eXBuZy5jb20v/cHVibGljL3VwbG9h/ZHMvcHJldmlldy96/b21hdG8tYXBwLWxv/Z28taWNvbi1oZC1w/bmctNzAxNzUxNjk0/OTY4MzMwcmVwejBu/NHR1ZC5wbmc",
+      "https://imgs.search.brave.com/skPWbhwcZ1KAHqryexiEnfxC0zgphUCwjUqhXWE02P4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2l0eXBuZy5jb20v/cHVibGljL3VwbG9h/ZHMvcHJldmlldy96/b21hdG8tYXBwLWxv/Z28taWNvbi1oZC1w/bmctNzAxNzUxNjk0/OTY4MzMwcmVwejBu/NHR1ZC5wbmc_dj0y/MDI1MTExOTE3",
     student: "Aaditya Gupta (Watch Post)",
     video:
       "https://www.linkedin.com/posts/kumark1_ramram-kumark-coding-activity-7360692834254938113-ZD6E",
