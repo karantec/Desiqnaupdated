@@ -66,6 +66,18 @@ export const data = {
 
   user6: {
     id: 6,
+    p: "Student cracks 30 Lakhs/Year SDE-offer from Commvault",
+    h1: "Kumar K Mentoring Student cracked Off-Campus Full-Time SDE offer from Commvault after 8 months of advanced DSA(OA + CP + System Design) training.",
+    company:
+      "https://imgs.search.brave.com/wYcxhhIBOX7VMDl_JYaJTpHI2GW_yZb6gVSEpElgD0c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZzJjcm93ZC5j/b20vdXBsb2Fkcy9w/cm9kdWN0L2ltYWdl/LzczZTkyYWQzOTA1/NDNkOGQyOTIwZGEx/YjNhYzc3OTRkL2Nv/bW12YXVsdC1jbG91/ZC5wbmc",
+    student: "Revanth Srinivasa Reddy (Watch Post)",
+    video:
+      "https://www.linkedin.com/posts/kumark1_commvault-coding-activity-7401655430009282561-32Z4",
+    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1765222348/WhatsApp_Image_2025-12-09_at_01.01.33_f6b65489_j7iidd.jpg",
+  },
+
+  user7: {
+    id: 7,
     p: "Kumar K Student cracks 40LPA SDE-offer from PayPal",
     h1: "Kumar K Mentoring Student cracked Off-Campus Full-Time SDE Offer from PayPal after 8 months of advanced DSA(OA + CP + System Design) training.",
     company:
@@ -75,8 +87,8 @@ export const data = {
     img: "kishorMpaypl.jpg",
   },
 
-  user7: {
-    id: 7,
+  user8: {
+    id: 8,
     p: "Tier-4 College to OffCampus SDE-Offer from BrowserStack",
     h1: "Kumar K Mentoring Student cracks OffCampus SDE-Offer from BrowserStack after 8 months of advanced DSA(OA + CP + System Design) training + OffCampus Referral Support",
     company:
@@ -86,18 +98,18 @@ export const data = {
     img: "akash1.jpg",
   },
 
-  user8: {
-    id: 8,
+  user9: {
+    id: 9,
     p: "Kumar K Student cracks OffCampus SDE-offer from Myntra!",
     h1: "Mentoring Student cracks OffCampus SDE-offer from Myntra after 8 months of advanced DSA(OA + CP + System Design) training.",
     company:
-      "https://imgs.search.brave.com/NLfIb3F1aXNRPYGVGszmFSM2g7vP14TRLcPBV1eau3s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvUXFC/TTYzWk5tRWlSZWxq/em1TYWtuSld0SjM2/WG9rbG15TGprWW1r/bVJpWS5qcGc_d2lk/dGg9NjQwJmNyb3A9/c21hcnQmYXV0bz13/ZWJwJnM9N2VjMzcy/YmU5NjIxZmQ0M2U4/ZmRmYTcyZDFhYjQ5/Mjg0NzljYmYxMg",
+      "https://imgs.search.brave.com/NLfIb3F1aXNRPYGVGszmFSM2g7vP14TRLcPBV1eau3s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvUXFC/TTYzWk5tRWlSZWxq/em1TYWtuSld0SjM2/WG9rbG15TGprWW1r/bVJpWS5qcGc",
     student: "Kumar Harsh",
     img: "harsh.jpg",
   },
 
-  user9: {
-    id: 9,
+  user10: {
+    id: 10,
     p: "From Waiter to 40LPA SDE-2 at Europe Based MNC",
     h1: "Mentoring Student cracks SDE-2 offer from Europe Based MNC BCG-X after 8 months of advanced DSA(OA + CP + System Design) training",
     company:
@@ -107,8 +119,8 @@ export const data = {
     img: "anad.png",
   },
 
-  user10: {
-    id: 10,
+  user11: {
+    id: 11,
     p: "Kumar K Student cracks OffCampus offer from Amazon",
     h1: "Kumar K Mentoring Student cracks OffCampus offer from Amazon",
     company:
@@ -119,8 +131,8 @@ export const data = {
     img: "abiram.jpg",
   },
 
-  user11: {
-    id: 11,
+  user12: {
+    id: 12,
     p: "Kumar K Student cracks offer from Google!",
     h1: "Kumar K Mentoring Student cracks offer from Google after 8 months of advanced DSA(OA + CP) training",
     company:
@@ -129,20 +141,20 @@ export const data = {
     img: "shivamg.jpg",
   },
 
-  user12: {
-    id: 12,
+  user13: {
+    id: 13,
     p: "Kumar K Student cracks offer from Directi and Zomato",
     h1: "Mentoring Student cracks offer from Directi and Zomato after 8 months of advanced DSA(OA + CP + System Design) training",
     company:
-      "https://imgs.search.brave.com/skPWbhwcZ1KAHqryexiEnfxC0zgphUCwjUqhXWE02P4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2l0eXBuZy5jb20v/cHVibGljL3VwbG9h/ZHMvcHJldmlldy96/b21hdG8tYXBwLWxv/Z28taWNvbi1oZC1w/bmctNzAxNzUxNjk0/OTY4MzMwcmVwejBu/NHR1ZC5wbmc_dj0y/MDI1MTExOTE3",
-    student: "Aaditya Gupta (Watch Post)",
+      "https://imgs.search.brave.com/skPWbhwcZ1KAHqryexiEnfxC0zgphUCwjUqhXWE02P4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2l0eXBuZy5jb20v/cHVibGljL3VwbG9h/ZHMvcHJldmlldy96/b21hdG8tYXBwLWxv/Z28taWNvbi1oZC1w/bmctNzAxNzUxNjk0/OTY4MzMwcmVwejBu/NHR1ZC5wbmc",
+    student: "Aaditya Gupta (View Post)",
     video:
       "https://www.linkedin.com/posts/kumark1_ramram-kumark-coding-activity-7360692834254938113-ZD6E",
     img: "adit.jpg",
   },
 
-  user13: {
-    id: 13,
+  user14: {
+    id: 14,
     p: "World Rank 160/30000 participants in LeetCode contest",
     h1: "Kumar K Mentoring Student Achieves World Rank 160/30000 in LeetCode contest",
     company:
@@ -151,23 +163,13 @@ export const data = {
     img: "amans.jpg",
   },
 
-  user14: {
-    id: 14,
+  user15: {
+    id: 15,
     p: "Kumar K student Achieved 1800+ Rating on Leetcode",
     h1: "Mentoring Student Achieved 1800+ Rating on Leetcode and got Knight badge after 8 months of advanced DSA(OA + CP) training",
     company:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5bzCI3h8HZdh83wkNL8FY535Zzfum_v2DiA",
     student: "Asmit Shukla",
     img: "asmit.jpg",
-  },
-
-  user15: {
-    id: 15,
-    p: "Kumar K Student Cracked OffCampus Cisco SDE Offer",
-    h1: "Mentoring Student cracked Cisco OffCampus SDE Offer after 8 months of advanced DSA(OA + CP + System Design) training",
-    company:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUy7bHw5p3mwQzheg1fAd1eY0uNTXBt2kzNA",
-    student: "Ronit Deepak Bhavsar",
-    img: "ronit.jpg",
   },
 };
