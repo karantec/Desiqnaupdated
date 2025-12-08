@@ -52,7 +52,7 @@ function HeroSection() {
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
                     <span className="text-red-500 text-2xl">
                       {" "}
-                      DSA Mentor: 2100+ (Guardian) rated on {"    "}
+                      DSA Mentor: 2200+ (Guardian) rated on {"    "}
                       <a
                         href="https://leetcode.com/u/godiswithme/"
                         className="text-blue-800"
@@ -137,7 +137,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                   Price till December 5 - {"    "}
+                   Price till December 10 - {"    "}
                                       
                     <span className="text-red-500 text-2xl ml-2">3280 </span>
                   </div>
@@ -145,7 +145,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Price from December 6 - {"    "}
+                    Price from December 11 - {"    "}
             
                     <span className="text-2xl ml-4">₹10000</span>
                     {"    "} {"    "}
@@ -173,6 +173,18 @@ function HeroSection() {
                     </span>
                   </button>
                 </a>
+                 <Link to="/achiver"> <button
+                    role="button"
+                    className="border-2 rounded-lg border-orange-500 relative h-12 w-48 overflow-hidden bg-white px-3 text-red-500 shadow-2xl transition-all 
+                 before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 
+                 before:bg-orange-500 before:transition-all before:duration-500 
+                 hover:text-white hover:shadow-orange-500 hover:before:left-0 hover:before:w-full"
+                  >
+                    <span className="relative z-10 text-md font-semibold">
+                      Recent 500 selections (20+LPA)
+                    </span>
+                  </button>
+                  </Link>
 
                 {/* Another Button */}
                 <a
@@ -235,6 +247,10 @@ function HeroSection() {
                   </button>
                 </a>
 
+
+
+                
+               
                 {/* Drive Button */}
                 <a
                   aria-label="course"

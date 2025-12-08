@@ -163,7 +163,7 @@ export const data = {
   user14: {
     id: 14,
     p: "Service Based to Product Based (Kotak)",
-    h1: "Kumar K Student cracks SDE-2 offer from Kotak OffCampus after 8 months of advanced DSA(OA + CP) training.",
+    h1: "Kumar K Student cracks SDE-2 offer from Kotak OffCampus after 8 months of advanced DSA(OA + CP) training",
     company:
       "https://bl-i.thgim.com/public/incoming/n5jitd/article65328974.ece/alternates/LANDSCAPE_1200/Kotak%20Mahindra%20Bank.png",
     student: "Chandan Yadav",

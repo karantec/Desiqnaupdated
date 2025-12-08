@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Sparkles } from 'lucide-react'
 import { Link } from "react-router-dom";
 
 const menuItems = [
@@ -11,10 +11,7 @@ const menuItems = [
     name: 'Curriculum',
     href: '/Curriculum',
   },
-  {
-    name: 'Testimonial',
-    href: '/#testimonial',
-  },
+ 
   {
     name: 'Top Achievers',
     href: '/achiver',
@@ -30,87 +27,98 @@ export function Navbar() {
 
   return (
     <>
-   <div className="relative flex flex-row justify-center space-x-3 w-full bg-slate-500 items-center p-2">
-  <h1 className="text-center text-white  py-2 h-15 student-cracks">
-    Each day a student Cracks 20+ LPA  SDE offer in our program!
-  </h1>
-  {"   " }
-  <Link to= "https://wa.me/918879355057">
-  <button role="button" className='mt-2 mb-2  font-sans lg:text-1xl  font-bold uppercase rounded-lg sm:text-base py-1 px-1  sm:mr-3 bg-red-500 text-white  items-center top-enroll-btn'>
-    Enroll Now
-  </button></Link>
-</div>
-
-    <div className="relative w-full    bg-gray-100 shadow-lg">
-    
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 text-black font-roboto">
-        <div className="inline-flex items-center space-x-2">
-          <span>
-            {/* <img width={70} height={70} src="logo1.png" alt="logo" /> */}
-          </span>
-          <span className="font-bold text-red-600 uppercase"> <i>DesiQna</i> </span>
+      {/* Top Banner */}
+      <div className="relative w-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 overflow-hidden">
+        <div className="absolute inset-0 bg-black opacity-10"></div>
+        <div className="relative flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 px-4 py-3">
+          <div className="flex items-center gap-2">
+            <Sparkles className="w-5 h-5 text-yellow-300 animate-pulse" />
+            <h1 className="text-center text-white text-sm sm:text-base font-semibold tracking-wide">
+              Each day a student Cracks 20+ LPA SDE offer in our program!
+            </h1>
+            <Sparkles className="w-5 h-5 text-yellow-300 animate-pulse" />
+          </div>
+          <Link to="https://wa.me/918879355057">
+            <button className="px-6 py-2 bg-white text-purple-600 font-bold text-sm rounded-full hover:bg-yellow-300 hover:text-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              Enroll Now
+            </button>
+          </Link>
         </div>
-        <div className="hidden lg:block">
-          <ul className="inline-flex space-x-8 font-serif">
-            {menuItems.map((item) => (
-              <li key={item.name}>
+      </div>
+
+      {/* Main Navbar */}
+      <nav className="sticky top-0 z-40 w-full bg-white border-b border-gray-200 shadow-md">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            {/* Logo */}
+            <Link to="/" className="flex items-center space-x-3 group">
+              <div className="w-10 h-10 bg-gradient-to-br from-red-500 to-pink-600 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow">
+                <span className="text-white font-bold text-xl">D</span>
+              </div>
+              <span className="text-2xl font-bold bg-gradient-to-r from-red-600 to-pink-600 bg-clip-text text-transparent">
+                DesiQna
+              </span>
+            </Link>
+
+            {/* Desktop Menu */}
+            <div className="hidden lg:flex items-center space-x-1">
+              {menuItems.map((item) => (
                 <Link
+                  key={item.name}
                   to={item.href}
-                  className="text-sm font-semibold hover:text-gray-900"
+                  className="px-4 py-2 text-sm font-semibold text-gray-700 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all duration-200"
                 >
                   {item.name}
                 </Link>
-              </li>
-            ))}
-          </ul>
+              ))}
+            </div>
+
+            {/* Desktop CTA Button */}
+            <div className="hidden lg:block">
+              <Link to="https://wa.me/918879355057">
+                <button className="px-6 py-2.5 bg-gradient-to-r from-red-600 to-pink-600 text-white font-semibold text-sm rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200">
+                  Get Started
+                </button>
+              </Link>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={toggleMenu}
+              className="lg:hidden p-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+            >
+              {isMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </button>
+          </div>
         </div>
-        <div className="hidden lg:block">
-        
-        </div>
-        <div className="lg:hidden">
-          <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
-        </div>
+
+        {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="absolute inset-x-0 top-0 z-50 origin-top-right transform p-2 transition lg:hidden bg-white shadow-lg">
-            <div className="divide-y-2 divide-gray-50 rounded-lg ring-1 ring-black ring-opacity-5">
-              <div className="px-5 pb-6 pt-5">
-                <div className="flex items-center justify-between">
-                  <div className="inline-flex items-center space-x-2">
-          <span className="font-bold text-red-600 uppercase"> <i>DesiQna</i> </span>
-                  </div>
-                  <div className="-mr-2">
-                    <button
-                      type="button"
-                      onClick={toggleMenu}
-                      className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                    >
-                      <span className="sr-only">Close menu</span>
-                      <X className="h-6 w-6" aria-hidden="true" />
-                    </button>
-                  </div>
-                </div>
-                <div className="mt-6">
-                  <nav className="grid gap-y-4">
-                    {menuItems.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
-                      >
-                        <span className="ml-3 text-base font-medium text-gray-900">
-                          {item.name}
-                        </span>
-                      </a>
-                    ))}
-                  </nav>
-                </div>
-               
-              </div>
+          <div className="lg:hidden border-t border-gray-200 bg-white shadow-lg">
+            <div className="px-4 py-4 space-y-2">
+              {menuItems.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className="block px-4 py-3 text-base font-semibold text-gray-700 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all duration-200"
+                >
+                  {item.name}
+                </Link>
+              ))}
+              <Link to="https://wa.me/918879355057" className="block pt-2">
+                <button className="w-full px-6 py-3 bg-gradient-to-r from-red-600 to-pink-600 text-white font-semibold text-sm rounded-lg hover:shadow-lg transition-all duration-200">
+                  Get Started
+                </button>
+              </Link>
             </div>
           </div>
         )}
-      </div>
-    </div>
+      </nav>
     </>
   )
 }

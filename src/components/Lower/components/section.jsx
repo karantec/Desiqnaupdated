@@ -29,7 +29,7 @@ function Section() {
               <ol className="list-outside">
                 <li className="text-black font-bold flex items-center">
                   <FaAngleRight className="mr-2" />
-                  2100+ rated on
+                  2200+ rated on
                   <span className="ml-2 text-blue-800">
                     {" "}
                     {"    "}
@@ -136,7 +136,7 @@ function Section() {
                 <span>
                   <a
                     aria-label="youtube"
-                    href="https://youtube.com/@kumark6326"
+                    href="https://www.youtube.com/watch?v=j1SOLU_UVkI&ab_channel=KumarK%5BAmazon%5D"
                     target="_blank"
                   >
                     <svg
