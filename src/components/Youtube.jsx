@@ -13,7 +13,7 @@ const YouTubeEmbed = () => {
           >P
             {/* Preview Image */}
             <img
-              src="https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg"
+              src="https://res.cloudinary.com/de4ks8mkh/image/upload/v1765223485/Qx6n3mgY4tg-SD_tsho8g.jpg"
               alt="Video Preview"
               className="w-full h-96 object-cover"
             />
