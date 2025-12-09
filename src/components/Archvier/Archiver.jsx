@@ -63,6 +63,18 @@ const CardComponent = () => {
    
    },
    
+
+
+   { 
+    imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1765222348/WhatsApp_Image_2025-12-09_at_01.01.33_f6b65489_j7iidd.jpg',
+    subtitle: 'SDE Offer Off Campus from Commvault!', 
+     content: 'Kumar K Mentoring Student cracked Off-Campus Full-Time SDE offer from Commvault after 8 months of advanced DSA(OA + CP + System Design) training',
+     student:'Revanth Srinivasa',
+     companyLogo:'https://imgs.search.brave.com/wYcxhhIBOX7VMDl_JYaJTpHI2GW_yZb6gVSEpElgD0c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZzJjcm93ZC5j/b20vdXBsb2Fkcy9w/cm9kdWN0L2ltYWdl/LzczZTkyYWQzOTA1/NDNkOGQyOTIwZGEx/YjNhYzc3OTRkL2Nv/bW12YXVsdC1jbG91/ZC5wbmc'
+   
+   
+   
+   },
    { 
     imageSrc: 'riyamicrosoft.jpg',
     subtitle: 'SDE Offer Off Campus from Microsoft!', 
