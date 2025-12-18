@@ -9,6 +9,16 @@ export const data = {
     img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg",
   },
 
+  // user0: {
+  //   id: 0,
+  //   p: "Serviced Based Company to 40LPA SDE-2  offer from  Paypal and Amazon.",
+  //   h1: "Kumar K Mentoring Student cracked Off-Campus SDE-2 Offer from  Paypal and Amazon after 8 months of advanced DSA(OA + CP + System Design) training.",
+  //   company:
+  //     "https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc",
+  //   student: "Watch Video",
+  //   video: "https://www.youtube.com/watch?v=p8DYumWB2l0",
+  //   img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg",
+  // },
   user1: {
     id: 1,
     p: "Tier-3 College to Google + Amazon Internship",
