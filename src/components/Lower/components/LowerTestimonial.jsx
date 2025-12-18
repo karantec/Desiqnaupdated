@@ -125,6 +125,20 @@ const testimonialData = [
       "Your DP sessions are the best coding content I have ever seen."
   },
   // ⭐ IMAGE TESTIMONIAL #2
+
+
+    {
+    name: "Beginner Plan Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766041884/Category/WhatsApp_Image_2025-12-18_at_12.20.58_PM_t6qn7x.jpg" // Replace with actual image URL
+  },
+    {
+    name: "Beginner Plan Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766041884/Category/WhatsApp_Image_2025-12-18_at_12.21.10_PM_ztpwso.jpg" // Replace with actual image URL
+  },
   {
     name: "Beginner Plan Student",
     profile: "#",
