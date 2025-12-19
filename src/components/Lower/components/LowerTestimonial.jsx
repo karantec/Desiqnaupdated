@@ -112,6 +112,7 @@ const testimonialData = [
   },
   // ⭐ IMAGE TESTIMONIAL #1
  
+  
   {
     name: "Avjit",
     profile: "https://www.linkedin.com/in/avijit-rana-3a57741bb/",
@@ -126,7 +127,12 @@ const testimonialData = [
   },
   // ⭐ IMAGE TESTIMONIAL #2
 
-
+ {
+    name: "Beginner Plan Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766125233/WhatsApp_Image_2025-12-19_at_11.09.57_AM_fd6dwr.jpg" // Replace with actual image URL
+  },
     {
     name: "Beginner Plan Student",
     profile: "#",
