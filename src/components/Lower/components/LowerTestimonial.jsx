@@ -92,12 +92,7 @@ const SliderCard = ({ name, content, profile, image, isImage }) => {
 };
 
 const testimonialData = [
-  {
-    name: "Akash Singhla",
-    profile: "https://www.linkedin.com/in/aakashhsingla/",
-    content:
-      "Gave Sharechat OA. Q3 was same DP question you taught 2 days back. Because of that I passed all test cases. Thanks a lot!"
-  },
+  
   {
     name: "Aryan Rana",
     profile: "https://www.linkedin.com/in/sudoaptrana2025/",
@@ -191,18 +186,8 @@ const testimonialData = [
     content:
       "Your hashing session with range update trick was next level. It made a very hard question so easy to visualize."
   },
-  {
-    name: "Yamini Sah",
-    profile: "https://www.linkedin.com/in/yamini-sah-1bb28b259/",
-    content:
-      "Only because of you sir, I can solve HackerRank questions now. Your 800 hr course is the best in the world!"
-  },
-  {
-    name: "SriSarvesh",
-    profile: "https://www.linkedin.com/in/srisarvesha1/",
-    content:
-      "Completed Kumar K Sir's 1:1 session. The roadmap was extremely helpful. No mentor cares like him."
-  },
+  
+ 
   {
     name: "May Beginner Batch Student",
     profile: "#",
