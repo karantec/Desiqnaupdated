@@ -175,6 +175,12 @@ const testimonialData = [
     image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1765709587/Images/begineer_ofgyzs.jpg" // Replace with actual image URL
   },
   {
+    name: "Dec Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766651750/WhatsApp_Image_2025-12-25_at_2.03.35_PM_nsl5xw.jpg" // Replace with actual image URL
+  },
+  {
     name: "Dp Student",
     profile: "#",
     isImage: true,
