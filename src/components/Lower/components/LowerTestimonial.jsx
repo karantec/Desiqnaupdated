@@ -186,6 +186,19 @@ const testimonialData = [
     isImage: true,
     image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1765709586/Images/dp1_xslzok.jpg" // Replace with actual image URL
   },
+
+    {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1766838965/WhatsApp_Image_2025-12-27_at_4.14.02_PM_ohyvh8.jpg" // Replace with actual image URL
+  },
+    {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1766838966/WhatsApp_Image_2025-12-27_at_10.20.58_AM_ogsi1h.jpg" // Replace with actual image URL
+  },
   {
     name: "Nishant",
     profile: "https://www.linkedin.com/in/nishant-rai-sde/",
