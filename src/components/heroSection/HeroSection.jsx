@@ -137,7 +137,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-  Special Christmas Discount Offer valid till Dec 25 -{"    "}
+                      Special Discount Offer valid till Dec 31 -{"    "}
                                       
                     <span className="text-r ed-500 text-2xl ml-2">3280 </span>
                   </div>
@@ -145,7 +145,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Price from Dec 26 - {"    "}
+                    Price from Jan 1 - {"    "}
             
                     <span className="text-2xl ml-4">₹10000</span>
                     {"    "} {"    "}
