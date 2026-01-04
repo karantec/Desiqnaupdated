@@ -19,7 +19,7 @@ const YouTubeEmbed = () => {
           >
             {/* Preview Image — fills the aspect container */}
             <img
-              src="https://res.cloudinary.com/de4ks8mkh/image/upload/v1765225285/Qx6n3mgY4tg-SD_rwoxv3.jpg"
+              src="https://res.cloudinary.com/derywmjpv/image/upload/v1767509598/Qx6n3mgY4tg-SD_m7r7jm.jpg"
               alt="Video Preview"
               className="w-full h-full object-cover"
               loading="lazy"

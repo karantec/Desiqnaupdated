@@ -17,7 +17,7 @@ export const data = {
     student: "Sai Harsha",
     company:
       "https://www.linkedin.com/posts/kumark1_dsa-icpc-activity-7397638767358119936-IwL7",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1764233755/WhatsApp_Image_2025-11-27_at_14.20.20_43faf963_ifuk1s.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767509233/WhatsApp_Image_2025-11-27_at_14.20.20_43faf963_enrbok.jpg",
   },
 
   user2: {
