@@ -7,7 +7,7 @@ export const data = {
       "https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc",
     student: "Aman Advani(Watch video)",
     video: "https://www.youtube.com/watch?v=8awJisQrdmQ",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762429189/8awJisQrdmQ-HD_zmbi5u.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767510882/maxresdefault_xlbm48.jpg",
   },
 
   user1: {
@@ -18,7 +18,7 @@ export const data = {
       "https://imgs.search.brave.com/2PVqXnzddY8pxEdjQVmDeBEQeavNocphnFMEXKpFujs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuc3RhcnR1cHRh/bGt5LmNvbS8yMDIx/LzA2L2NvaW5kY3gt/bG9nby1zdGFydHVw/dGFsa3kuanBn",
     student: "Jatin(Watch Video)",
     video: "https://www.youtube.com/watch?v=7MVwBpWFkwQ",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1764395971/WhatsApp_Image_2025-11-29_at_11.26.50_dec03bf1_e0sagh.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767509233/WhatsApp_Image_2025-11-29_at_11.26.50_dec03bf1_mfqj6m.jpg",
   },
 
   user01: {
@@ -30,7 +30,7 @@ export const data = {
     student: "Shreyash Mahalle(Watch post)",
     video:
       "https://www.linkedin.com/posts/shreyash-mahalle-794301220_morganstanley-softwaredeveloper-newbeginning-activity-7317086165361221632-9q2y",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762429901/1744529285174_qbgg0n.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767510941/1744529284977_gw14zr.jpg",
   },
 
   user16: {
