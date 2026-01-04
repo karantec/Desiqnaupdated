@@ -6,10 +6,9 @@ export const data = {
     company: "https://www.vectorlogo.zone/logos/google/google-tile.svg",
     student: "Watch Video",
     video: "https://www.youtube.com/shorts/W0lWXMxMbfM",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767514903/goo1_utpvum.png",
   },
 
- 
   user1: {
     id: 1,
     p: "Tier-3 College to Google + Amazon Internship",
@@ -18,13 +17,13 @@ export const data = {
       "https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc",
     student: "Watch Video",
     video: "https://www.youtube.com/shorts/imTzPWC9CPo",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762425009/WhatsApp_Image_2025-11-06_at_15.58.51_4043db9e_flpein.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767514904/amazon2_d0mack.png",
   },
 
   user2: {
     id: 2,
     p: "Tier-3 College to OffCampus SDE- Internship Offer from Adobe",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762427876/WhatsApp_Image_2025-11-06_at_16.44.04_d23ac4e3_xttuoc.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767514902/Anya_kuiyzi.png",
     h1: "Kumar K student cracks OffCampus Adobe SDE internship offer after 8 months of high level DSA + OA + CP training and 1-1 Mentorship",
     student: "Anya Sharma (View Post)",
     video:
@@ -36,7 +35,7 @@ export const data = {
   user3: {
     id: 3,
     p: "Tier-3 College to OffCampus SDE- Internship Offer from Amazon",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762423413/WhatsApp_Image_2025-11-06_at_15.12.02_5539f880_urbzg3.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767514903/vyom1_q3jkxz.png",
     h1: "Kumar K student cracks OffCampus Amazon SDE internship offer after 8 months of high level DSA + OA + CP training and 1-1 Mentorship",
     student: "Vyom Goyal (View Post)",
     video:
@@ -51,7 +50,7 @@ export const data = {
     company: "https://tse2.mm.bing.net/th/id/OIP.ynG9bDG-UKi5-HizOP8UeQHaHa",
     student: "Watch Video",
     video: "https://www.youtube.com/watch?v=6pkkepj5XlQ",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1755545052/maxresdefault1_hahx6k.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767513188/maxresdefault_2_d4y3qs.jpg",
   },
 
   user5: {
@@ -74,7 +73,7 @@ export const data = {
     student: "Revanth Srinivasa Reddy (Watch Post)",
     video:
       "https://www.linkedin.com/posts/kumark1_commvault-coding-activity-7401655430009282561-32Z4",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1765222348/WhatsApp_Image_2025-12-09_at_01.01.33_f6b65489_j7iidd.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767514903/Revanth1_pw6ph9.png",
   },
 
   user7: {

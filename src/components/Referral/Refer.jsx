@@ -4,14 +4,14 @@ import { Download, Share2, MessageCircle, ChevronLeft, ChevronRight, Play, Pause
 const MediaCarousel = () => {
   // Sample JSON data with both images and YouTube Shorts
   const mediaData = [
-    {
-      id: 1,
-      type: "image",
-      url: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1751457436/paypal1_ybacrh.jpg",
-      alt: "PayPal 31LPA SDE Referral Chat Screenshot",
-      title: "PayPal 31LPA Referral Chat",
-      filename: "paypal-referral.jpg"
-    },
+    // {
+    //   id: 1,
+    //   type: "image",
+    //   url: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1751457436/paypal1_ybacrh.jpg",
+    //   alt: "PayPal 31LPA SDE Referral Chat Screenshot",
+    //   title: "PayPal 31LPA Referral Chat",
+    //   filename: "paypal-referral.jpg"
+    // },
     {
       id: 2,
       type: "youtube",
@@ -19,14 +19,14 @@ const MediaCarousel = () => {
       title: "Success Story - How I Got Referred",
       description: "Watch this inspiring journey of getting a referral"
     },
-    {
-      id: 3,
-      type: "image",
-      url: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1751456632/quad_ucxg7r.jpg",
-      alt: "Qualcomm 28LPA SDE Referral Chat Screenshot",
-      title: "Qualcomm 28LPA Referral Chat",
-      filename: "qualcomm-referral-1.jpg"
-    },
+    // {
+    //   id: 3,
+    //   type: "image",
+    //   url: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1751456632/quad_ucxg7r.jpg",
+    //   alt: "Qualcomm 28LPA SDE Referral Chat Screenshot",
+    //   title: "Qualcomm 28LPA Referral Chat",
+    //   filename: "qualcomm-referral-1.jpg"
+    // },
     {
       id: 4,
       type: "youtube",
@@ -34,14 +34,14 @@ const MediaCarousel = () => {
       title: "Tips for Getting Tech Referrals",
       description: "Expert advice on landing referrals at top tech companies"
     },
-    {
-      id: 5,
-      type: "image",
-      url: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1751457348/quad2_wzewsv.jpg",
-      alt: "Qualcomm 28LPA Referral Chat Screenshot",
-      title: "Qualcomm 28LPA Referral Chat",
-      filename: "qualcomm-referral-2.jpg"
-    }
+    // {
+    //   id: 5,
+    //   type: "image",
+    //   url: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1751457348/quad2_wzewsv.jpg",
+    //   alt: "Qualcomm 28LPA Referral Chat Screenshot",
+    //   title: "Qualcomm 28LPA Referral Chat",
+    //   filename: "qualcomm-referral-2.jpg"
+    // }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

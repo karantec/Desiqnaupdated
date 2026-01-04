@@ -5,7 +5,7 @@ const CardComponent = () => {
   const data = [
     {
      subtitle: "Tier-3 College to OffCampus SDE- Internship Offer from Adobe",
-    imageSrc: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762427876/WhatsApp_Image_2025-11-06_at_16.44.04_d23ac4e3_xttuoc.jpg",
+    imageSrc: "https://res.cloudinary.com/derywmjpv/image/upload/v1767514902/Anya_kuiyzi.png",
     content: "Kumar K student cracks OffCampus Adobe SDE internship offer after 8 months of high level DSA + OA + CP training and 1-1 Mentorship",
     student: "Anya Sharma",
     companyLogo: "https://logos-world.net/wp-content/uploads/2020/06/Adobe-Emblem.png",
@@ -15,12 +15,12 @@ const CardComponent = () => {
     content: "Kumar K Mentoring Student cracks off-campus SDE-offer from Amazon after 8 months of advanced DSA(OA + CP) training",
     companyLogo:"https://imgs.search.brave.com/we4J9Nce1CapScBva4Ygw_EXcYv5Jcson02x0CePSjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzEw/L0FtYXpvbi1Mb2dv/LTIwMDAtNTAweDI4/MS5wbmc",
     student: "Aman Advani",
-    imageSrc: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1762429189/8awJisQrdmQ-HD_zmbi5u.jpg",
+    imageSrc: "https://res.cloudinary.com/derywmjpv/image/upload/v1767510882/maxresdefault_xlbm48.jpg",
 },
     
     {
     
-     imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1762423413/WhatsApp_Image_2025-11-06_at_15.12.02_5539f880_urbzg3.jpg',
+     imageSrc: 'https://res.cloudinary.com/derywmjpv/image/upload/v1767514903/vyom1_q3jkxz.png',
     subtitle: 'SDE Offer Amazon', 
      content: 'Kumar K student cracks  Off campus Amazon  SDE  internship offer after 8 months of high level DSA + OA + CP training and 1-1 Mentorship',
      student:'Vyom Goyal',
@@ -29,7 +29,7 @@ const CardComponent = () => {
    },
 
     {
-     imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1758607984/WhatsApp_Image_2025-09-23_at_01.04.00_a9a55e7c_v8iczu.jpg',
+     imageSrc: 'https://res.cloudinary.com/derywmjpv/image/upload/v1767514903/goo1_utpvum.png',
     subtitle: "Tier-4 College to OffCampus SDE- Internship Offer from Google",
     content: "Kumar K Mentoring Student cracked Off-Campus SDE- Internship Offer from Google after 8 months of advanced DSA(OA + CP + System Design) training.",
     student:'Yashasvi Sharma',
@@ -37,7 +37,7 @@ const CardComponent = () => {
   },
 
    {
-     imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1762425009/WhatsApp_Image_2025-11-06_at_15.58.51_4043db9e_flpein.jpg',
+     imageSrc: 'https://res.cloudinary.com/derywmjpv/image/upload/v1767514904/amazon2_d0mack.png',
     subtitle: "Tier-3 College to Google + Amazon Internship",
     content: "Kumar K Mentoring Student cracked  SDE- Internship Offer from Google  and Amazon after 8 months of advanced DSA(OA + CP + System Design) training.",
     student:'Vivek Haldar',
@@ -66,7 +66,7 @@ const CardComponent = () => {
 
 
    { 
-    imageSrc: 'https://res.cloudinary.com/de4ks8mkh/image/upload/v1765222348/WhatsApp_Image_2025-12-09_at_01.01.33_f6b65489_j7iidd.jpg',
+    imageSrc: 'https://res.cloudinary.com/derywmjpv/image/upload/v1767514903/Revanth1_pw6ph9.png',
     subtitle: 'SDE Offer Off Campus from Commvault!', 
      content: 'Kumar K Mentoring Student cracked Off-Campus Full-Time SDE offer from Commvault after 8 months of advanced DSA(OA + CP + System Design) training',
      student:'Revanth Srinivasa',
