@@ -14,7 +14,7 @@ export const data = {
     h1: "Student cracks Off Campus SDE Offers from Meesho  after 8 months of FAANG level DSA(OA + Interview) Training with us!",
     student: "Jaydip",
     company: "Meesho",
-    img: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1751454316/WhatsApp_Image_2025-07-02_at_16.34.03_5915be5e_gpwost.jpg",
+    img: "https://res.cloudinary.com/derywmjpv/image/upload/v1767510573/WhatsApp_Image_2026-01-04_at_12.39.05_PM_blganm.jpg",
   },
   user2: {
     id: 2,
