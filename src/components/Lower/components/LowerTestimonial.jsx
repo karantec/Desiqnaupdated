@@ -122,50 +122,12 @@ const testimonialData = [
   },
   // ⭐ IMAGE TESTIMONIAL #2
 
- {
-    name: "Beginner Plan Student",
-    profile: "#",
-    isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766125233/WhatsApp_Image_2025-12-19_at_11.09.57_AM_fd6dwr.jpg" // Replace with actual image URL
-  },
-
-
-  {
-    name: "Beginner Plan Student",
-    profile: "#",
-    isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766212080/WhatsApp_Image_2025-12-19_at_6.45.29_PM_loehll.jpg" // Replace with actual image URL
-  },
-  {
-    name: "Beginner Plan Student",
-    profile: "#",
-    isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766212080/WhatsApp_Image_2025-12-20_at_11.57.08_AM_v15yso.jpg" // Replace with actual image URL
-  },
-    {
-    name: "Beginner Plan Student",
-    profile: "#",
-    isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766041884/Category/WhatsApp_Image_2025-12-18_at_12.20.58_PM_t6qn7x.jpg" // Replace with actual image URL
-  },
-    {
-    name: "Beginner Plan Student",
-    profile: "#",
-    isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766041884/Category/WhatsApp_Image_2025-12-18_at_12.21.10_PM_ztpwso.jpg" // Replace with actual image URL
-  },
-  {
-    name: "Beginner Plan Student",
-    profile: "#",
-    isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1765221333/WhatsApp_Image_2025-12-06_at_23.33.36_c650b047_yxjwpp.jpg" // Replace with actual image URL
-  },
-
+ 
     {
     name: "Dec Student",
     profile: "#",
     isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1765390976/22_ksvp0v.jpg" // Replace with actual image URL
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1766838966/WhatsApp_Image_2025-12-27_at_10.20.58_AM_ogsi1h.jpg" // Replace with actual image URL
   },
 
    {
@@ -178,26 +140,26 @@ const testimonialData = [
     name: "Dec Student",
     profile: "#",
     isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1766651750/WhatsApp_Image_2025-12-25_at_2.03.35_PM_nsl5xw.jpg" // Replace with actual image URL
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767509231/12_qkezvi.jpg" // Replace with actual image URL
   },
   {
     name: "Dp Student",
     profile: "#",
     isImage: true,
-    image: "https://res.cloudinary.com/de4ks8mkh/image/upload/v1765709586/Images/dp1_xslzok.jpg" // Replace with actual image URL
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767509232/13_wrmphy.jpg" // Replace with actual image URL
   },
 
     {
     name: "Dp Student",
     profile: "#",
     isImage: true,
-    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1766838965/WhatsApp_Image_2025-12-27_at_4.14.02_PM_ohyvh8.jpg" // Replace with actual image URL
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767509233/22_jzxzfn.jpg" // Replace with actual image URL
   },
     {
     name: "Dp Student",
     profile: "#",
     isImage: true,
-    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1766838966/WhatsApp_Image_2025-12-27_at_10.20.58_AM_ogsi1h.jpg" // Replace with actual image URL
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767509233/WhatsApp_Image_2025-12-06_at_23.33.36_11b834b9_xgrcxn.jpg" // Replace with actual image URL
   },
   {
     name: "Nishant",
