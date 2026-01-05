@@ -162,6 +162,28 @@ const testimonialData = [
     content:
       "Your hashing session with range update trick was next level. It made a very hard question so easy to visualize."
   },
+
+
+ {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767618048/WhatsApp_Image_2026-01-05_at_3.10.30_PM_wshhhm.jpg" // Replace with actual image URL
+  },
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767618048/WhatsApp_Image_2026-01-05_at_3.10.28_PM_tr9kui.jpg" // Replace with actual image URL
+  },
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767618048/WhatsApp_Image_2026-01-05_at_3.10.32_PM_o0frgw.jpg" // Replace with actual image URL
+  },
+
+
   
  
   {
