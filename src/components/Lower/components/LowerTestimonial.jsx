@@ -190,6 +190,12 @@ const testimonialData = [
   },
 
 
+{
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767870442/fresh_xpqkve.jpg" // Replace with actual image URL
+  },
 
   
  
