@@ -156,6 +156,13 @@ const testimonialData = [
     isImage: true,
     image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767509233/WhatsApp_Image_2025-12-06_at_23.33.36_11b834b9_xgrcxn.jpg" // Replace with actual image URL
   },
+
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767894391/fresh2_qdg0js.jpg" // Replace with actual image URL
+  },
   {
     name: "Nishant",
     profile: "https://www.linkedin.com/in/nishant-rai-sde/",
