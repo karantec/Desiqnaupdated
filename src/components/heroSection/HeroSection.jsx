@@ -11,6 +11,7 @@ import DirectImageDisplay from "../Referral/Refer";
 import ImageCarousel from "../Referral/Refer";
 import YouTubeEmbed from "../Youtube";
 import CourseComparison from "../Comparison/Compare";
+import YouTubeEmbed1 from "../Youtube1";
 
 const Lower = lazy(() => import("../Lower/Page"));
 const CPPage = lazy(() => import("../Features copy/page"));
@@ -137,7 +138,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                      Special Discount Offer valid till Jan 12 -{"    "}
+                      Special Festival Discount Offer valid till Jan 14 -{"    "}
                                       
                     <span className="text-r ed-500 text-2xl ml-2">3280 </span>
                   </div>
@@ -145,7 +146,7 @@ function HeroSection() {
                 <li className="mb-6  md:items-start  leading-normal  text-md text-gray-900 font-sans font-bold">
                   <div className="flex items-start">
                     <FaArrowAltCircleRight className="text-orange-500 mt-1 mr-2 flex-shrink-0" />
-                    Price from Jan 13 - {"    "}
+                    Price from Jan 15 - {"    "}
             
                     <span className="text-2xl ml-4">₹10000</span>
                     {"    "} {"    "}
@@ -280,6 +281,7 @@ function HeroSection() {
                 src="https://res.cloudinary.com/derywmjpv/image/upload/v1767509204/WhatsApp_Image_2025-11-26_at_20.06.59_10503e62_kx3kxx.jpg"
               />
               <YouTubeEmbed />
+              <YouTubeEmbed1/>
             </div>
           </div>
         </section>
