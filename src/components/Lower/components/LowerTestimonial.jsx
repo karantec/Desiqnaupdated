@@ -200,7 +200,19 @@ const testimonialData = [
     isImage: true,
     image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767708152/WhatsApp_Image_2026-01-06_at_7.28.19_PM_uzi6pu.jpg" // Replace with actual image URL
   },
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767708152/WhatsApp_Image_2026-01-06_at_7.28.19_PM_uzi6pu.jpg" // Replace with actual image URL
+  },
 
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1768808522/WhatsApp_Image_2026-01-19_at_12.53.32_PM_efhk08.jpg" // Replace with actual image URL
+  },
 
 {
     name: "Dp Student",
