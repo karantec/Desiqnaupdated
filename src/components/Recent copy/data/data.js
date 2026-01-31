@@ -11,7 +11,7 @@ export const data = {
 
   user1: {
     id: 1,
-    p: "Coding Begineer to OffCampus SDE- Internship Offer from Ripling",
+    p: "Coding Beginner to OffCampus SDE- Internship Offer from Ripling",
     h1: "Kumar K Mentoring Student cracked Off-Campus SDE- Internship Offer from Ripling after 8 months of advanced DSA(OA + CP + System Design) training.",
     company:
       "https://assets.techrepublic.com/uploads/2024/02/tr_20240215-rippling-launch-australia.jpg",
