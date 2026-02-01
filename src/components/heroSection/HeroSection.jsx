@@ -290,7 +290,7 @@ function HeroSection() {
       <Suspense fallback={<></>}>
       <CourseComparison/>
         <RecPage1 />
-
+        {/* <OnetoOneMentoring/> */}
         <RecPage />
         <ImageCarousel />
 

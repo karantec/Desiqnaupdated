@@ -221,8 +221,63 @@ const testimonialData = [
     image: "https://res.cloudinary.com/derywmjpv/image/upload/v1767870442/fresh_xpqkve.jpg" // Replace with actual image URL
   },
 
+  {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950797/Website/WhatsApp_Image_2026-02-01_at_12.07.23_PM_o9vnmb.jpg" // Replace with actual image URL
+  },
+    {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950767/Website/3_eb0eae.jpg" // Replace with actual image URL
+  },
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950766/Website/WhatsApp_Image_2026-01-28_at_1.14.50_PM_bdzbug.jpg" // Replace with actual image URL
+  },
+
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950766/Website/2_hpbtz0.jpg" // Replace with actual image URL
+  },
+ {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950766/Website/2_hpbtz0.jpg" // Replace with actual image URL
+  },
+ {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950767/Website/4_jffugv.jpg" // Replace with actual image URL
+  },
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950766/Website/WhatsApp_Image_2026-01-28_at_10.53.16_PM_o7ihyh.jpg" // Replace with actual image URL
+  },
   
- 
+{
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950766/Website/WhatsApp_Image_2026-01-29_at_12.44.37_PM_oji68a.jpg" // Replace with actual image URL
+  },
+
+  {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950766/Website/REferral_xj08qc.jpg" // Replace with actual image URL
+  },
   {
     name: "May Beginner Batch Student",
     profile: "#",
