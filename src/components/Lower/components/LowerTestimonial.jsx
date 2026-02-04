@@ -252,17 +252,28 @@ const testimonialData = [
     isImage: true,
     image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950766/Website/2_hpbtz0.jpg" // Replace with actual image URL
   },
- {
-    name: "Dp Student",
-    profile: "#",
-    isImage: true,
-    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950767/Website/4_jffugv.jpg" // Replace with actual image URL
-  },
+ 
    {
     name: "Dp Student",
     profile: "#",
     isImage: true,
     image: "https://res.cloudinary.com/derywmjpv/image/upload/v1769950766/Website/WhatsApp_Image_2026-01-28_at_10.53.16_PM_o7ihyh.jpg" // Replace with actual image URL
+  },
+
+
+
+   {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1770231110/fresh2_ojskux.jpg" // Replace with actual image URL
+  },
+
+  {
+    name: "Dp Student",
+    profile: "#",
+    isImage: true,
+    image: "https://res.cloudinary.com/derywmjpv/image/upload/v1770231111/fresh_tpvg3b.jpg" // Replace with actual image URL
   },
   
 {
