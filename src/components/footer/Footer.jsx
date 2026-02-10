@@ -89,10 +89,10 @@ import { Facebook, Linkedin, Instagram, Youtube, ExternalLink } from 'lucide-rea
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-500 text-center md:text-left">
-              © 2025 <span className="font-semibold text-gray-700">DesiQna</span>. All rights reserved.
+              © 2026 <span className="font-semibold text-gray-700">DesiQna</span>. All rights reserved.
             </p>
-            <p className="text-xs text-gray-400">
-              Made with <span className="text-red-500">♥</span> by Coding Ditto
+            <p className="text-xs text-black">
+              Made with <span className="text-red-500 text-2xl">♥</span> by Coding Ditto
             </p>
           </div>
         </div>

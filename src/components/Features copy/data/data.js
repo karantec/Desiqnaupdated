@@ -2,14 +2,13 @@ export const data = {
   user0: {
     id: 0,
     p: "Tier-4 College to get 2300+ rating on LeetCode",
-    h1: "Kumar K Student become guardian on Leetcode and  Expert on CodeForces + gets 2300+ rating on LeetCode after 8 months of DSA/OA Training",
+    h1: "Kumar K Student become guardian on Leetcode and Expert on CodeForces + gets 2300+ rating on LeetCode after 8 months of DSA/OA Training",
     student: "Riya Das",
     company:
-      "https://www.linkedin.com/posts/kumark1_making-the-best-possible-content-on-hard-activity-7050678992529502208-XuKW/?utm_source=share&utm_medium=member_desktop",
+      "https://www.linkedin.com/posts/kumark1_making-the-best-possible-content-on-hard-activity-7050678992529502208-XuKW/",
     img: "riya.png",
   },
 
-  // SWAPPED: user14 moved here and id changed to 1
   user1: {
     id: 1,
     p: "Coding DSA Beginner to ICPC Regionalist 2025 in 1 year of training",
@@ -32,18 +31,16 @@ export const data = {
 
   user3: {
     id: 3,
-    p: "Tier-4 College to World Rank World Rank 92 in Codechef DSA contest(Div2.)",
+    p: "Tier-4 College to 1800+ rating on Codechef",
     h1: "Student gets World Rank 92/25000 in CodeChef DSA Contest",
     student: "Karan Rana",
-    company:
-      "https://www.linkedin.com/posts/karanrana30_excited-to-share-my-experience-in-codechefs-activity-7171510745266806784-TczP",
-    img: "https://media.licdn.com/dms/image/v2/D4E03AQHfv2bmp1S0vQ/profile-displayphoto-shrink_200_200/B4EZd48fMRHcAc-/0/1750080812756?e=1766016000&v=beta&t=cS7E0Mj0X6FgEqjCH_D-yI2Kzl9Bl_sTjKkQTynRuK8",
+    img: "https://res.cloudinary.com/dg3djpzq2/image/upload/v1770724501/IMG_0068_b3a8yw.jpg",
   },
 
   user4: {
     id: 4,
     p: "Coding Beginner to 1900+ rating on Leetcode",
-    h1: "Student Crossess 1900+ rating on Leetcode",
+    h1: "Student Crosses 1900+ rating on Leetcode",
     student: "Chinmay Gupta",
     img: "chinmay.jpg",
   },
@@ -80,7 +77,7 @@ export const data = {
 
   user8: {
     id: 8,
-    p: "Tier-3 College to World Rank World Rank 400 in Leetcode contest",
+    p: "Tier-3 College to World Rank 400 in Leetcode contest",
     h1: "Student gets World Rank 400/25000 in Leetcode DSA Contest",
     student: "Jagan Balasubramanian",
     company:
@@ -100,7 +97,7 @@ export const data = {
 
   user10: {
     id: 10,
-    p: "Tier-3 College to World Rank World Rank 675 in Leetcode contest",
+    p: "Tier-3 College to World Rank 675 in Leetcode contest",
     h1: "Student gets World Rank 675/25000 in Leetcode DSA Contest",
     student: "Nayan Kumar Jha",
     company:
@@ -110,7 +107,7 @@ export const data = {
 
   user11: {
     id: 11,
-    p: "Tier-3 College to World Rank World Rank 102 CodeChef and AIR 81",
+    p: "Tier-3 College to World Rank 102 CodeChef and AIR 81",
     h1: "Student gets World Rank 102/25000 in CodeChef DSA Contest",
     student: "Aniket Agarwal",
     company:
@@ -120,7 +117,7 @@ export const data = {
 
   user12: {
     id: 12,
-    p: "Coding Beginner to World Rank  365 in Leetcode Weekly contest",
+    p: "Coding Beginner to World Rank 365 in Leetcode Weekly contest",
     h1: "Student gets World Rank 365/25000 in Leetcode Contest",
     student: "SaiSri Angajala",
     company:
@@ -136,13 +133,11 @@ export const data = {
     img: "Ayush.jpg",
   },
 
-  // SWAPPED: old user1 moved here as user14
   user14: {
     id: 14,
     p: "Kumar K student gets 2400+ rating on LeetCode and Expert rating on CodeForces",
     h1: "Kumar K Student become Guardian on Leetcode and Expert on CodeForces + gets 2400+ rating on LeetCode after 8 months of DSA/OA+CP Training",
     student: "Paras Yadav",
-    company: "parass.png",
     img: "parass.jpg",
   },
 };
